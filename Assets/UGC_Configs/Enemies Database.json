@@ -1,0 +1,401 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Enemies Database.asset",
+  "enemies": [
+    {
+      "name": "Cauldron",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Cauldron Enemy.prefab",
+      "icon": "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_death.png",
+      "enemyType": 0,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Jelly",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Jelly Enemy.prefab",
+      "icon": "[MissingAsset:guid=2b593a765fdd40b4d9e1363b0f24747b]",
+      "enemyType": 1,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Plant",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Plant Enemy.prefab",
+      "icon": "[MissingAsset:guid=95b2fc5910488b040a89054c3c46dd03]",
+      "enemyType": 2,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Wasp",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Wasp Enemy.prefab",
+      "icon": "[MissingAsset:guid=73e8a28fcbed5d14ab4d5fb4e2baae0f]",
+      "enemyType": 3,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Eye",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Eye Enemy.prefab",
+      "icon": "Assets/The Archer/Sprites/UI/Main Menu/ui_settings.png",
+      "enemyType": 4,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Slime",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Slime Enemy.prefab",
+      "icon": "Assets/The Archer/Sprites/UI/Generic/ui_coin.png",
+      "enemyType": 5,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Smaller Slime",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Smaller Slime Enemy.prefab",
+      "icon": "[MissingAsset:guid=536453615bf1d8a4f95dfe5667611a71]",
+      "enemyType": 6,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Smallest Slime",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Smallest Slime Enemy.prefab",
+      "icon": "[MissingAsset:guid=536453615bf1d8a4f95dfe5667611a71]",
+      "enemyType": 7,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Bomb",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Bomb Enemy.prefab",
+      "icon": "[MissingAsset:guid=ffaff7503c18e2b4a9aeac496cdacdcd]",
+      "enemyType": 8,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Pumpkin",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Pumpkin Enemy.prefab",
+      "icon": "[MissingAsset:guid=271f9249c4fb3154f83fd2c8bb56f057]",
+      "enemyType": 9,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Bat",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Bat Enemy.prefab",
+      "icon": "[MissingAsset:guid=ad02f219c3f2b314c84fa30a8fccf6a8]",
+      "enemyType": 10,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Hand",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Hand Enemy.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 11,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Mole",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Mole Enemy.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 12,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Spike",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Spike Enemy.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 15,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Trap",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Trap Enemy.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 13,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Candle",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Simple Enemies/Candle Enemy.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 14,
+      "isBoss": 0,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 0.2994652,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 2,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Queen Wasp",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Bosses/Queen Wasp Boss.prefab",
+      "icon": "[MissingAsset:guid=2eff4521ecaf02b45b1e34864bc7e56b]",
+      "enemyType": 100,
+      "isBoss": 1,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 1,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 100,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Mighty Cactus",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Bosses/Cactus Boss.prefab",
+      "icon": "[MissingAsset:guid=5ddde231d7071d44a8bdf4ab7c702e45]",
+      "enemyType": 101,
+      "isBoss": 1,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 1,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 100,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Cursed Totem",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Bosses/Totem Boss.prefab",
+      "icon": "[MissingAsset:guid=5a210609568c15142856a1f7f013d965]",
+      "enemyType": 102,
+      "isBoss": 1,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 1,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 100,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Ice Slime",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Bosses/Ice Slime Boss.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 103,
+      "isBoss": 1,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 1,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 100,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Mysterious Mask",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Bosses/Mask Boss.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 104,
+      "isBoss": 1,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 1,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 100,
+      "selectedZoneId": 0
+    },
+    {
+      "name": "Ancient Golem",
+      "prefab": "Assets/The Archer/Prefabs/Enemies/Bosses/Golem Boss.prefab",
+      "icon": "[MissingAsset:guid=d6f52aba5c7bc124682daa3d14cdc2e7]",
+      "enemyType": 105,
+      "isBoss": 1,
+      "- dropType": 0,
+      "itemData": null,
+      "- hp": 1,
+      "dropAmount": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "chance": 100,
+      "selectedZoneId": 0
+    }
+  ]
+}

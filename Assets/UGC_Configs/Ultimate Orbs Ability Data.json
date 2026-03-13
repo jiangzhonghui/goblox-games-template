@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Ultimate Orbs Ability Data.asset",
+  "type": 56,
+  "prerequisites": [],
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "终极宝珠",
+  "description": "获得终极环绕宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ultimate_orb.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Ultimate Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.6
+    }
+  ]
+}

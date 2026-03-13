@@ -1,0 +1,33 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Shield Upgrade.asset",
+  "upgradeType": 4,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_shield.png",
+  "title": "强化护甲",
+  "description": "减少受到的伤害",
+  "statsText": "{0}%><color=#75F05F>{1}%</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/Shield Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 100,
+      "value": 2
+    },
+    {
+      "cost": 250,
+      "value": 4
+    },
+    {
+      "cost": 600,
+      "value": 6
+    },
+    {
+      "cost": 1200,
+      "value": 8
+    },
+    {
+      "cost": 2400,
+      "value": 10
+    }
+  ]
+}

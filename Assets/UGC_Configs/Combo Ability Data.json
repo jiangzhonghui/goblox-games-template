@@ -1,0 +1,19 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Buff Abilities/Combo Ability Data.asset",
+  "type": 70,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "连击",
+  "description": "每次连续击杀都会增加伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_combo.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Buff Abilities/Combo Ability.prefab",
+  "levels": [
+    {
+      "abilityDuration": 5,
+      "attackDamageMultiplierPerEnemyKilled": 1.1,
+      "maxAttackDamageMultiplier": 1.5
+    }
+  ]
+}

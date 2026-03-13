@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Poison Ability Data.asset",
+  "type": 17,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "中毒",
+  "description": "攻击有几率使敌人中毒",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_poison.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Poison Ability.prefab",
+  "levels": [
+    {
+      "effectDuration": 3,
+      "targetDamageReductionMultiplier": 0.6,
+      "arrowDamageMultiplier": 0.8,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 0.9
+    }
+  ]
+}

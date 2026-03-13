@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Rare Heal Ability Data.asset",
+  "type": 73,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "稀有治疗",
+  "description": "恢复适量生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Rare Heal Ability.prefab",
+  "levels": [
+    {
+      "healingProportion": {
+        "value": 0.5,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      }
+    }
+  ]
+}

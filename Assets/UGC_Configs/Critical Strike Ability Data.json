@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Critical Strike Ability Data.asset",
+  "type": 32,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "致命一击",
+  "description": "攻击可造成毁灭性伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_critical_strike.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Critical Strike Ability.prefab",
+  "levels": [
+    {
+      "critDamageMultiplier": 1.5,
+      "critChanceIncreasePercent": 25
+    }
+  ]
+}

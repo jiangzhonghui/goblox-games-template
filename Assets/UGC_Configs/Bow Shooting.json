@@ -1,0 +1,60 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Weapons & Items/Bow Shooting.asset",
+  "audioDataType": 1,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Weapon/Bow/bow_shot_1.wav",
+      "volume": {
+        "value": 0.15,
+        "min": 0.5,
+        "max": 0.6,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 0.5
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Weapon/Bow/bow_shot_2.wav",
+      "volume": {
+        "value": 0.15,
+        "min": 0.9,
+        "max": 1,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 0.5
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Weapon/Bow/bow_shot_3.wav",
+      "volume": {
+        "value": 0.15,
+        "min": 0.9,
+        "max": 1,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 0.5
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 001.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 001.asset",
+  "heroName": "弓箭手",
+  "icon": "Assets/The Archer/Sprites/UI/Armory/ui_character_1.png",
+  "prefab": "Assets/The Archer/Prefabs/Player/Heroes/Archer Hero.prefab",
+  "isDefaultHero": 1,
+  "isUnlockedByDefault": 1,
+  "heroLevels": [
+    {
+      "cost": 0,
+      "heroRarity": 0,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 100,
+      "heroRarity": 0,
+      "- statType": 6,
+      "value": 3,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 300,
+      "heroRarity": 0,
+      "- statType": 6,
+      "value": 3,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 600,
+      "heroRarity": 0,
+      "- statType": 6,
+      "value": 3,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 900,
+      "heroRarity": 1,
+      "- statType": 6,
+      "value": 3,
+      "isVisibleOnUI": 0,
+      "attachedAbilities": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Chests Database.asset",
+  "chests": [
+    {
+      "chestType": 0,
+      "chestPrefab": "Assets/The Archer/Prefabs/Chests/Health Chest.prefab"
+    },
+    {
+      "chestType": 1,
+      "chestPrefab": "Assets/The Archer/Prefabs/Chests/Good Chest.prefab"
+    },
+    {
+      "chestType": 2,
+      "chestPrefab": "Assets/The Archer/Prefabs/Chests/Evil Chest.prefab"
+    }
+  ]
+}

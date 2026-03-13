@@ -1,0 +1,45 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Animation Sets/Bow Animations Set.asset",
+  "movementAnimationSpeed": 5,
+  "weaponAnimationsSetType": 1,
+  "animations": [
+    {
+      "name": "Hero Run",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Bow/char_archer_bow_run.fbx"
+    },
+    {
+      "name": "Hero Walk",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Bow/char_archer_bow_walk.fbx"
+    },
+    {
+      "name": "Hero Shoot",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Bow/char_archer_bow_shoot.fbx"
+    },
+    {
+      "name": "Hero Idle",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Universal/char_archer_idle.fbx"
+    },
+    {
+      "name": "Hero Defeat",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Universal/char_archer_defeat.fbx"
+    },
+    {
+      "name": "Hero Revive",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Universal/char_archer_revive.fbx"
+    },
+    {
+      "name": "Hero Run No Weapon",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Universal/char_archer_run.fbx"
+    },
+    {
+      "name": "Hero Walk No Weapon",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Bow/char_archer_bow_walk.fbx"
+    },
+    {
+      "name": "Hero Idle No Weapon",
+      "animationClip": "Assets/The Archer/Models/Heroes/Archer/Animations/Universal/char_archer_idle.fbx"
+    }
+  ],
+  "runtimeAnimatorController": "Assets/The Archer/Models/Heroes/Archer/Hero Bow Animator.controller",
+  "attackAnimationLength": 0.833
+}

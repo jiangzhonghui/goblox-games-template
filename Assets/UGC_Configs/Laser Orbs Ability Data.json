@@ -1,0 +1,20 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Laser Orbs Ability Data.asset",
+  "type": 55,
+  "prerequisites": [],
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "激光宝珠",
+  "description": "获得环绕的激光宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_laser_orb.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Laser Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.6,
+      "laserDamageMultiplier": 0.5,
+      "laserActiveDuration": 2,
+      "laserDisabledDuration": 4
+    }
+  ]
+}

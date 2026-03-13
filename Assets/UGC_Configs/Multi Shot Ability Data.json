@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Multi Shot Ability Data.asset",
+  "type": 13,
+  "rarity": 3,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "多重射击",
+  "description": "连续射击两次",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_multi_shot.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Multi Shot Ability.prefab",
+  "levels": [
+    {
+      "additionalShotsCount": 1,
+      "attackDamageMultiplier": 0.8,
+      "attackSpeedMultiplier": 0.8
+    }
+  ]
+}

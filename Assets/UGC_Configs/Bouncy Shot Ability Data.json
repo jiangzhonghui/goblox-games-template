@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Bouncy Shot Ability Data.asset",
+  "type": 0,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "弹射射击",
+  "description": "子弹会从墙壁反弹",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_bouncy_arrow.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Bouncy Shot Ability.prefab",
+  "levels": [
+    {
+      "bouncesCount": 1,
+      "eachBounceDamageMultiplier": 0.8
+    },
+    {
+      "bouncesCount": 2,
+      "eachBounceDamageMultiplier": 0.8
+    }
+  ]
+}

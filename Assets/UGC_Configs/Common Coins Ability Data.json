@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Common Coins Ability Data.asset",
+  "type": 76,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "普通金币",
+  "description": "获得少量金币",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_coins.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Common Coins Ability.prefab",
+  "levels": [
+    {
+      "amountOfCoins": 25
+    }
+  ]
+}

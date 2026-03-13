@@ -1,0 +1,38 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Weapons & Items/Bow Enemy Hit.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Weapon/Bow/bow_enemy_hit.wav",
+      "volume": {
+        "value": 0.6,
+        "min": 0.9,
+        "max": 1,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0
+}

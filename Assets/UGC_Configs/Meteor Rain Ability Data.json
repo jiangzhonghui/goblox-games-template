@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Meteor Rain Ability Data.asset",
+  "type": 19,
+  "prerequisites": null,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "流星雨",
+  "description": "流星生成速度加快",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_meteor_rain.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Meteor Rain Ability.prefab",
+  "levels": [
+    {
+      "meteorSpawnDelayMultiplier": 0.7
+    }
+  ]
+}

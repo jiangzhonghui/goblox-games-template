@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Heal Enhancement Ability Data.asset",
+  "type": 62,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "治疗增强",
+  "description": "生命补给效果增强并增加最大生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_heal_enhancement.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Heal Enhancement Ability Behavior.prefab",
+  "levels": [
+    {
+      "maxHPMultiplier": 1.15,
+      "healingMultiplier": 1.05
+    }
+  ]
+}

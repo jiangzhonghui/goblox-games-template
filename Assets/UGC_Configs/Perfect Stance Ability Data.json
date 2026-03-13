@@ -1,0 +1,77 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Buff Abilities/Perfect Stance Ability Data.asset",
+  "type": 71,
+  "prerequisites": [],
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "完美姿态",
+  "description": "静止站立一段时间后增加攻击速度",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_perfect_stance.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Buff Abilities/Perfect Stance Ability.prefab",
+  "levels": [
+    {
+      "timeDamageMultiplierCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 1,
+            "inSlope": 0.05770718,
+            "outSlope": 0.05770718,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.02263083
+          },
+          {
+            "serializedVersion": 3,
+            "time": 5,
+            "value": 1.5,
+            "inSlope": 0.1544229,
+            "outSlope": 0.1544229,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.0193305,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "timeAttackSpeedMultiplierCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 1,
+            "inSlope": 0.05770718,
+            "outSlope": 0.05770718,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.02263083
+          },
+          {
+            "serializedVersion": 3,
+            "time": 5,
+            "value": 1.5,
+            "inSlope": 0.1544229,
+            "outSlope": 0.1544229,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.0193305,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "perfectStanceParticleShowTime": 1
+    }
+  ]
+}

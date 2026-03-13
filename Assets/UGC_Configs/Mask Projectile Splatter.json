@@ -1,0 +1,110 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Mask/Mask Projectile Splatter.asset",
+  "audioGroup": 0,
+  "audioDataType": 1,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Mask/mask_splatter.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 0
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Mask/mask_splatter_1.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 0
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Mask/mask_splatter_2.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.2,
+        "propertyType": 0
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Mask/mask_splatter_3.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 0
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 1,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0.003944397,
+        "value": 0.9036255,
+        "inSlope": -0.007536698,
+        "outSlope": -0.007536698,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0.3124982
+      },
+      {
+        "serializedVersion": 3,
+        "time": 0.9992423,
+        "value": 1.495377,
+        "inSlope": 1.200269,
+        "outSlope": 1.200269,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0.2036451,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 3,
+  "vibrateOnPlay": 1
+}

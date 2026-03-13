@@ -1,0 +1,29 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Major Health Boost Ability Data.asset",
+  "type": 39,
+  "prerequisites": [],
+  "rarity": 3,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 0,
+  "title": "大幅生命提升",
+  "description": "增加最大生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_major_health_boost.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Major Health Boost Ability.prefab",
+  "levels": [
+    {
+      "maxHPMultiplier": 1.5
+    },
+    {
+      "maxHPMultiplier": 1.8
+    },
+    {
+      "maxHPMultiplier": 2.1
+    },
+    {
+      "maxHPMultiplier": 2.4
+    },
+    {
+      "maxHPMultiplier": 2.7
+    }
+  ]
+}

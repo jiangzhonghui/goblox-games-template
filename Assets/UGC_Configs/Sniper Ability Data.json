@@ -1,0 +1,45 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Sniper Ability Data.asset",
+  "type": 2,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "狙击手",
+  "description": "远距离射击造成越来越多的伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_sniper.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Sniper Ability.prefab",
+  "levels": [
+    {
+      "distanceDamageMultiplierCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 1,
+            "inSlope": 0.03333334,
+            "outSlope": 0.03333334,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 15,
+            "value": 1.5,
+            "inSlope": 0.03333334,
+            "outSlope": 0.03333334,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Trifecta Ability Data.asset",
+  "type": 41,
+  "rarity": 3,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "三合一",
+  "description": "获得更高的攻击伤害、攻击速度和最大生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_trifecta.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Trifecta Ability.prefab",
+  "levels": [
+    {
+      "attackSpeedMultiplier": 1.15,
+      "attackDamageMultiplier": 1.15,
+      "maxHPMultiplier": 1.15
+    }
+  ]
+}

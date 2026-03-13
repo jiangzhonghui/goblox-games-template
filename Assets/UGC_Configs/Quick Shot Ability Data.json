@@ -1,0 +1,19 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Quick Shot Ability Data.asset",
+  "type": 3,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "快速射击",
+  "description": "获得更快的攻击速度，但抛射物变小",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_quick_shot.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Quick Shot Ability.prefab",
+  "levels": [
+    {
+      "attackSpeedMultiplier": 1.5,
+      "attackDamageMultiplier": 0.8,
+      "arrowSizeMultiplier": 0.7,
+      "arrowSpreadAngle": 2
+    }
+  ]
+}

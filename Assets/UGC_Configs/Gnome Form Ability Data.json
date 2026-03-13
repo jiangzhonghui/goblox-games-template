@@ -1,0 +1,19 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Gnome Form Ability Data.asset",
+  "type": 37,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "侏儒形态",
+  "description": "体型变小，但更加敏捷",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_gnome_form.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Gnome Form Ability.prefab",
+  "levels": [
+    {
+      "playerSizeMultiplier": 0.8,
+      "attackSpeedMultiplier": 1.2,
+      "movementSpeedMultiplier": 1.2,
+      "dodgeChancePercent": 8
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 002.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 002.asset",
+  "heroName": "盗贼",
+  "icon": "Assets/The Archer/Sprites/UI/Armory/ui_character_2.png",
+  "prefab": "Assets/The Archer/Prefabs/Player/Heroes/Thief Hero.prefab",
+  "isDefaultHero": 0,
+  "isUnlockedByDefault": 0,
+  "heroLevels": [
+    {
+      "cost": 600,
+      "heroRarity": 1,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 800,
+      "heroRarity": 1,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 1000,
+      "heroRarity": 1,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 1000,
+      "heroRarity": 1,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 1200,
+      "heroRarity": 1,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0
+    },
+    {
+      "cost": 1400,
+      "heroRarity": 2,
+      "- statType": 6,
+      "value": 2,
+      "isVisibleOnUI": 0,
+      "attachedAbilities": "0a000000"
+    }
+  ]
+}

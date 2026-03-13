@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Buff Abilities/Rage Ability Data.asset",
+  "type": 69,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "狂怒",
+  "description": "当生命值低于50%时增加攻击速度和力量",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_rage.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Buff Abilities/Rage Ability.prefab",
+  "levels": [
+    {
+      "abilityStartHpProportion": 0.5,
+      "attackDamageMultiplier": 1.5,
+      "attackSpeedMultiplier": 1.5
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Effects/Poision Status Effect Data.asset",
+  "effectAppliedSound": "Assets/The Archer/Scriptables/Audio/Abilities/Status Effects/Poison.asset",
+  "effectTickSound": null,
+  "effectEndedSound": null
+}

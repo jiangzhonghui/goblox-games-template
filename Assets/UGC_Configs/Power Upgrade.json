@@ -1,0 +1,33 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Power Upgrade.asset",
+  "upgradeType": 7,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_power.png",
+  "title": "力量涌动",
+  "description": "增加你的\r\n攻击伤害",
+  "statsText": "{0}><color=#75F05F>{1}</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/Power Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 100,
+      "value": 1.1
+    },
+    {
+      "cost": 250,
+      "value": 1.2
+    },
+    {
+      "cost": 600,
+      "value": 1.3
+    },
+    {
+      "cost": 1200,
+      "value": 1.4
+    },
+    {
+      "cost": 2400,
+      "value": 1.5
+    }
+  ]
+}

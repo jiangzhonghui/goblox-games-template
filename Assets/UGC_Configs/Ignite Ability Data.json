@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Ignite Ability Data.asset",
+  "type": 16,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "点燃",
+  "description": "攻击有几率点燃敌人",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ignite.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Ignite Ability.prefab",
+  "levels": [
+    {
+      "effectDuration": 3,
+      "arrowDamageMultiplier": 0.8,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 1
+    }
+  ]
+}

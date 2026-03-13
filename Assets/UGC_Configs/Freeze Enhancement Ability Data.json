@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Freeze Enhancement Ability Data.asset",
+  "type": 23,
+  "prerequisites": null,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "冰冻增强",
+  "description": "冰冻造成更多伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_freeze_enhancement.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Freeze Enhancement Ability.prefab",
+  "levels": [
+    {
+      "freezeDamageMultiplier": 1.5,
+      "arrowSpeedMultiplier": 1.5
+    }
+  ]
+}

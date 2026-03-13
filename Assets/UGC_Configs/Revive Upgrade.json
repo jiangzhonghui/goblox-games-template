@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Revive Upgrade.asset",
+  "upgradeType": 5,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_revive.png",
+  "title": "复活",
+  "description": "使你复活\r\n而非死亡",
+  "statsText": "{0}><color=#75F05F>{1}</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/Revive Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 1200,
+      "value": 1
+    },
+    {
+      "cost": 2400,
+      "value": 2
+    }
+  ]
+}

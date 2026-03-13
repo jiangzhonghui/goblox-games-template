@@ -1,0 +1,6 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Effects/Freeze Status Effect Data.asset",
+  "effectAppliedSound": "Assets/The Archer/Scriptables/Audio/Abilities/Status Effects/Freeze.asset",
+  "effectTickSound": null,
+  "effectEndedSound": null
+}

@@ -1,0 +1,67 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Hat Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Hat Data.asset",
+  "itemType": 2,
+  "itemName": "法师帽",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_hat_1.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 100,
+      "itemRarity": 0,
+      "- statType": 5,
+      "value": 2,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 200,
+      "itemRarity": 0,
+      "- statType": 5,
+      "value": 2.5,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 300,
+      "itemRarity": 0,
+      "- statType": 5,
+      "value": 2.8,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 400,
+      "itemRarity": 0,
+      "- statType": 5,
+      "value": 3,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 500,
+      "itemRarity": 0,
+      "- statType": 5,
+      "value": 3.3,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 600,
+      "itemRarity": 0,
+      "- statType": 5,
+      "value": 3.6,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 700,
+      "itemRarity": 1,
+      "- statType": 5,
+      "value": 3.9,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1000,
+      "itemRarity": 2,
+      "- statType": 5,
+      "value": 4.5,
+      "isVisibleOnUI": 1
+    }
+  ]
+}

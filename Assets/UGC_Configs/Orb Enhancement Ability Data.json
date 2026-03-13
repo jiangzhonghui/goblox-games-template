@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Orb Enhancement Ability Data.asset",
+  "type": 54,
+  "prerequisites": null,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "宝珠增强",
+  "description": "所有宝珠造成的伤害增加",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_orb_enhancement.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Orbs Enhansment Ability.prefab",
+  "levels": [
+    {
+      "orbsDamageMultiplier": 1.5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Spirit Abilities/Poison Spirit Ability Data.asset",
+  "type": 42,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "剧毒之灵",
+  "description": "召唤一个友好的剧毒之灵",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_poison_spirit.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Spirit Abilities/Poison Spirit Ability.prefab",
+  "levels": [
+    {
+      "spiritAttackDelay": 2,
+      "spiritDamageMultiplier": 0.5,
+      "effectDuration": 3,
+      "targetDamageReductionMultiplier": 0.5,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 0.9
+    }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "game_name": "The Archer Roguelike",
+    "description": "游戏数值配置文件 - 用于驱动游戏玩法",
+    "last_updated": "2025-01-29"
+  },
+
+  "enums": {
+    "EnemyType": {
+      "Cauldron": 0,
+      "Jelly": 1,
+      "Plant": 2,
+      "Wasp": 3,
+      "Eye": 4,
+      "Slime": 5,
+      "SmallSlime": 6,
+      "TinySlime": 7,
+      "Bomb": 8,
+      "Pumpkin": 9,
+      "Bat": 10,
+      "Hand": 11,
+      "Mole": 12,
+      "Trap": 13,
+      "Candle": 14,
+      "Spike": 15,
+      "QueenWasp": 100,
+      "Cactus": 101,
+      "Totem": 102,
+      "IceSlime": 103,
+      "Mask": 104,
+      "Golem": 105
+    },
+    "AbilityCategory": {
+      "Weapon": 0,
+      "Elemental": 1,
+      "Stat": 2,
+      "Spirit": 3,
+      "Orb": 4,
+      "Defence": 5,
+      "Buff": 6,
+      "Endgame": 7
+    },
+    "Rarity": {
+      "Common": 0,
+      "Rare": 1,
+      "Mystic": 2,
+      "Legendary": 3
+    },
+    "StatType": {
+      "Damage": 0,
+      "HP": 1,
+      "AttackSpeed": 2,
+      "MovementSpeed": 3,
+      "HPRecovery": 4,
+      "CriticalChance": 5,
+      "DamageReduction": 6
+    },
+    "ItemType": {
+      "Weapon": 0,
+      "Armor": 1,
+      "Helmet": 2,
+      "Ring": 3
+    }
+  },
+
+  "rarity_config": [
+    {
+      "rarity_id": 0,
+      "rarity_name": "Common",
+      "main_color": "#FFFFFF",
+      "secondary_color": "#CCCCCC",
+      "drop_chance": 60
+    },
+    {
+      "rarity_id": 1,
+      "rarity_name": "Rare",
+      "main_color": "#00FF00",
+      "secondary_color": "#006600",
+      "drop_chance": 25
+    },
+    {
+      "rarity_id": 2,
+      "rarity_name": "Mystic",
+      "main_color": "#9900FF",
+      "secondary_color": "#4B0082",
+      "drop_chance": 12
+    },
+    {
+      "rarity_id": 3,
+      "rarity_name": "Legendary",
+      "main_color": "#FFD700",
+      "secondary_color": "#FF8C00",
+      "drop_chance": 3
+    }
+  ],
+
+  "player_base_config": {
+    "config_id": 1,
+    "max_hp": 100,
+    "attack_damage": 10,
+    "movement_speed": 5,
+    "attack_speed": 1.0,
+    "damage_reduction": 0,
+    "critical_chance": 5,
+    "crit_damage_multiplier": 1.5,
+    "hp_recovery": 0,
+    "dodge_chance": 0,
+    "healing_multiplier": 1.0,
+    "size_multiplier": 1.0,
+    "damage_to_bosses_multiplier": 1.0,
+    "revives": 0
+  },
+
+  "player_arrow_config": {
+    "config_id": 1,
+    "front_arrow_damage": 1.0,
+    "rear_arrow_damage": 1.0,
+    "diagonal_arrow_damage": 1.0,
+    "front_arrows_count": 1,
+    "rear_arrows_count": 0,
+    "diagonal_arrows_count": 0,
+    "arrow_bounce_count": 0,
+    "arrow_bounce_damage": 1.0,
+    "arrow_ricochet_count": 0,
+    "arrow_ricochet_damage": 1.0,
+    "arrow_size": 1.0,
+    "arrow_spread": 0,
+    "arrow_range": 10,
+    "multishot": 0,
+    "split_arrow_count": 0,
+    "split_arrow_damage": 1.0,
+    "magnetism": 0
+  },
+
+  "player_elemental_config": {
+    "config_id": 1,
+    "poison_damage_multiplier": 1.0,
+    "freeze_damage_multiplier": 1.0,
+    "burn_damage_multiplier": 1.0,
+    "shock_damage_multiplier": 1.0,
+    "poison_arrow_speed_multiplier": 1.0,
+    "freeze_arrow_speed_multiplier": 1.0,
+    "burn_arrow_speed_multiplier": 1.0,
+    "shock_arrow_speed_multiplier": 1.0,
+    "meteor_spawn_delay_multiplier": 1.0,
+    "star_spawn_interval_multiplier": 1.0
+  },
+
+  "stages": [
+    {
+      "stage_id": 1,
+      "stage_name": "Forest Stage",
+      "stage_objective": "Defeat all enemies and survive",
+      "show_objective": true,
+      "show_ability_selector": true,
+      "base_enemy_damage_multiplier": 1.0,
+      "enemy_damage_room_step": 0.1,
+      "enemy_damage_wave_step": 0.05,
+      "base_enemy_hp_multiplier": 1.0,
+      "enemy_hp_room_step": 0.15,
+      "enemy_hp_wave_step": 0.08,
+      "music_path": "Audio/Stage1_BGM",
+      "rooms": [
+        {
+          "room_id": 1,
+          "group_id": 0,
+          "player_spawn": {"x": 0, "y": 0, "z": 0},
+          "first_wave_delay": 1.0,
+          "wave_delay": 2.0,
+          "exit_delay": 1.5,
+          "camera_type": 0,
+          "waves": [
+            {
+              "wave_id": 1,
+              "group_id": 0,
+              "exp_reward": 50,
+              "gold_reward": 100,
+              "end_delay": -1,
+              "enemy_spawns": [
+                {
+                  "spawn_id": 1,
+                  "enemy_type": 5,
+                  "position": {"x": 5, "y": 0, "z": 3},
+                  "override_hp": false,
+                  "hp_value": 0,
+                  "override_damage": false,
+                  "damage_value": 0
+                },
+                {
+                  "spawn_id": 2,
+                  "enemy_type": 5,
+                  "position": {"x": -5, "y": 0, "z": 3},
+                  "override_hp": false,
+                  "hp_value": 0,
+                  "override_damage": false,
+                  "damage_value": 0
+                }
+              ],
+              "chest_spawns": []
+            },
+            {
+              "wave_id": 2,
+              "group_id": 0,
+              "exp_reward": 80,
+              "gold_reward": 150,
+              "end_delay": -1,
+              "enemy_spawns": [
+                {
+                  "spawn_id": 3,
+                  "enemy_type": 3,
+                  "position": {"x": 0, "y": 0, "z": 8},
+                  "override_hp": false,
+                  "hp_value": 0,
+                  "override_damage": false,
+                  "damage_value": 0
+                },
+                {
+                  "spawn_id": 4,
+                  "enemy_type": 5,
+                  "position": {"x": 4, "y": 0, "z": 5},
+                  "override_hp": false,
+                  "hp_value": 0,
+                  "override_damage": false,
+                  "damage_value": 0
+                },
+                {
+                  "spawn_id": 5,
+                  "enemy_type": 5,
+                  "position": {"x": -4, "y": 0, "z": 5},
+                  "override_hp": false,
+                  "hp_value": 0,
+                  "override_damage": false,
+                  "damage_value": 0
+                }
+              ],
+              "chest_spawns": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "enemies": [
+    {
+      "enemy_id": 0,
+      "enemy_name": "Cauldron",
+      "is_boss": false,
+      "base_health": 30,
+      "base_damage": 8,
+      "collision_damage_multiplier": 0.5,
+      "use_knockback": true,
+      "knockback_magnitude": 5,
+      "knockback_cooldown": 1.0,
+      "prefab_path": "Enemies/Cauldron",
+      "behavior": {
+        "idle_duration": {"min": 1.5, "max": 2.0},
+        "walk_duration": {"min": 2.0, "max": 3.0},
+        "walk_speed": {"min": 1.5, "max": 2.0}
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 5, "max": 10}, "chance": 100}
+      ]
+    },
+    {
+      "enemy_id": 1,
+      "enemy_name": "Jelly",
+      "is_boss": false,
+      "base_health": 25,
+      "base_damage": 6,
+      "collision_damage_multiplier": 0.4,
+      "use_knockback": true,
+      "knockback_magnitude": 4,
+      "knockback_cooldown": 1.0,
+      "prefab_path": "Enemies/Jelly",
+      "behavior": {
+        "idle_after_spawn": {"min": 0.3, "max": 0.8},
+        "idle_after_attack": {"min": 1.0, "max": 1.5},
+        "max_walk_distance": {"min": 4, "max": 5},
+        "walk_sequence_count": {"min": 1, "max": 2},
+        "delay_between_walks": {"min": 0.8, "max": 1.5},
+        "projectile_damage_multiplier": {"min": 0.9, "max": 1.1},
+        "attacks_sequence_count": {"min": 1, "max": 3},
+        "projectiles_count": 5
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 8, "max": 12}, "chance": 100}
+      ]
+    },
+    {
+      "enemy_id": 3,
+      "enemy_name": "Wasp",
+      "is_boss": false,
+      "base_health": 40,
+      "base_damage": 12,
+      "collision_damage_multiplier": 0.6,
+      "use_knockback": true,
+      "knockback_magnitude": 6,
+      "knockback_cooldown": 1.0,
+      "prefab_path": "Enemies/Wasp",
+      "behavior": {
+        "idle_duration": 2.5,
+        "walk_duration": {"min": 3, "max": 5},
+        "walk_speed": {"min": 2, "max": 3},
+        "attack_speed": {"min": 7, "max": 9},
+        "max_attack_distance": {"min": 4, "max": 6},
+        "attack_duration": 4.0
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 10, "max": 15}, "chance": 100}
+      ]
+    },
+    {
+      "enemy_id": 5,
+      "enemy_name": "Slime",
+      "is_boss": false,
+      "base_health": 50,
+      "base_damage": 10,
+      "collision_damage_multiplier": 0.5,
+      "use_knockback": true,
+      "knockback_magnitude": 5,
+      "knockback_cooldown": 1.0,
+      "prefab_path": "Enemies/Slime",
+      "behavior": {
+        "spawn_children_on_death": true,
+        "children_count": 3,
+        "child_enemy_type": 6,
+        "idle_after_spawn": {"min": 0.5, "max": 1.0},
+        "idle_duration": {"min": 1.0, "max": 2.0},
+        "movement_duration": {"min": 8.0, "max": 12.0}
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 15, "max": 20}, "chance": 100}
+      ]
+    },
+    {
+      "enemy_id": 8,
+      "enemy_name": "Bomb",
+      "is_boss": false,
+      "base_health": 20,
+      "base_damage": 25,
+      "collision_damage_multiplier": 0.0,
+      "use_knockback": false,
+      "knockback_magnitude": 0,
+      "knockback_cooldown": 0,
+      "prefab_path": "Enemies/Bomb",
+      "behavior": {
+        "explosion_trigger_radius": 2.0,
+        "explosion_radius": 3.0,
+        "explosion_damage_multiplier": {"min": 0.9, "max": 1.1},
+        "walking_duration": 2.0,
+        "idle_duration": 1.0
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 5, "max": 8}, "chance": 100}
+      ]
+    },
+    {
+      "enemy_id": 100,
+      "enemy_name": "Queen Wasp",
+      "is_boss": true,
+      "base_health": 500,
+      "base_damage": 30,
+      "collision_damage_multiplier": 0.8,
+      "use_knockback": true,
+      "knockback_magnitude": 10,
+      "knockback_cooldown": 2.0,
+      "prefab_path": "Enemies/Boss/QueenWasp",
+      "behavior": {
+        "phase_count": 3,
+        "enrage_hp_threshold": 0.3
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 200, "max": 300}, "chance": 100},
+        {"drop_type": "Gold", "hp_zone": 1.0, "amount": {"min": 500, "max": 800}, "chance": 100}
+      ]
+    },
+    {
+      "enemy_id": 104,
+      "enemy_name": "Mask",
+      "is_boss": true,
+      "base_health": 800,
+      "base_damage": 35,
+      "collision_damage_multiplier": 0.8,
+      "use_knockback": true,
+      "knockback_magnitude": 12,
+      "knockback_cooldown": 2.0,
+      "prefab_path": "Enemies/Boss/Mask",
+      "behavior": {
+        "attacks_sequence": ["Projectiles", "Waves", "Hands"],
+        "idle_duration": 2.0,
+        "max_angle_deviation": 20,
+        "projectiles_attack_count": 3,
+        "projectile_attack_delay": 0.3,
+        "projectile_spawn_duration": 0.2,
+        "projectile_damage_multiplier": {"min": 0.9, "max": 1.1},
+        "hands_attacks_count": 3,
+        "waves_count": 5,
+        "waves_attack_count": 3,
+        "wave_damage_multiplier": {"min": 0.9, "max": 1.1}
+      },
+      "drops": [
+        {"drop_type": "XP", "hp_zone": 1.0, "amount": {"min": 500, "max": 700}, "chance": 100},
+        {"drop_type": "Gold", "hp_zone": 1.0, "amount": {"min": 1000, "max": 1500}, "chance": 100}
+      ]
+    }
+  ],
+
+  "abilities": [
+    {
+      "ability_id": 1,
+      "ability_name": "Bouncy Shot",
+      "ability_desc": "Arrows bounce between enemies",
+      "category": "Weapon",
+      "rarity": 1,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/BouncyShot",
+      "prefab_path": "Abilities/BouncyShot",
+      "levels": [
+        {"level": 1, "arrow_bounce_count": 1, "arrow_bounce_damage": 0.8},
+        {"level": 2, "arrow_bounce_count": 2, "arrow_bounce_damage": 0.85},
+        {"level": 3, "arrow_bounce_count": 3, "arrow_bounce_damage": 0.9},
+        {"level": 4, "arrow_bounce_count": 4, "arrow_bounce_damage": 0.95},
+        {"level": 5, "arrow_bounce_count": 5, "arrow_bounce_damage": 1.0}
+      ]
+    },
+    {
+      "ability_id": 2,
+      "ability_name": "Rear Shot",
+      "ability_desc": "Fire arrows behind you",
+      "category": "Weapon",
+      "rarity": 0,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 3,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/RearShot",
+      "prefab_path": "Abilities/RearShot",
+      "levels": [
+        {"level": 1, "rear_arrows_count": 1, "rear_arrow_damage": 0.7},
+        {"level": 2, "rear_arrows_count": 2, "rear_arrow_damage": 0.8},
+        {"level": 3, "rear_arrows_count": 3, "rear_arrow_damage": 0.9}
+      ]
+    },
+    {
+      "ability_id": 10,
+      "ability_name": "Freeze",
+      "ability_desc": "Arrows have a chance to freeze enemies",
+      "category": "Elemental",
+      "rarity": 1,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/Freeze",
+      "prefab_path": "Abilities/Freeze",
+      "levels": [
+        {"level": 1, "effect_duration": 2.0, "arrow_damage_multiplier": 0.8, "effect_deals_dot": false},
+        {"level": 2, "effect_duration": 2.5, "arrow_damage_multiplier": 0.85, "effect_deals_dot": false},
+        {"level": 3, "effect_duration": 3.0, "arrow_damage_multiplier": 0.9, "effect_deals_dot": true, "effect_damage_multiplier": 0.05, "effect_damage_interval": 0.5},
+        {"level": 4, "effect_duration": 3.5, "arrow_damage_multiplier": 0.95, "effect_deals_dot": true, "effect_damage_multiplier": 0.08, "effect_damage_interval": 0.5},
+        {"level": 5, "effect_duration": 4.0, "arrow_damage_multiplier": 1.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.1, "effect_damage_interval": 0.5}
+      ]
+    },
+    {
+      "ability_id": 11,
+      "ability_name": "Ignite",
+      "ability_desc": "Arrows set enemies on fire",
+      "category": "Elemental",
+      "rarity": 1,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/Ignite",
+      "prefab_path": "Abilities/Ignite",
+      "levels": [
+        {"level": 1, "effect_duration": 3.0, "arrow_damage_multiplier": 0.8, "effect_deals_dot": true, "effect_damage_multiplier": 0.1, "effect_damage_interval": 0.5},
+        {"level": 2, "effect_duration": 3.5, "arrow_damage_multiplier": 0.85, "effect_deals_dot": true, "effect_damage_multiplier": 0.12, "effect_damage_interval": 0.5},
+        {"level": 3, "effect_duration": 4.0, "arrow_damage_multiplier": 0.9, "effect_deals_dot": true, "effect_damage_multiplier": 0.15, "effect_damage_interval": 0.5},
+        {"level": 4, "effect_duration": 4.5, "arrow_damage_multiplier": 0.95, "effect_deals_dot": true, "effect_damage_multiplier": 0.18, "effect_damage_interval": 0.4},
+        {"level": 5, "effect_duration": 5.0, "arrow_damage_multiplier": 1.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.2, "effect_damage_interval": 0.4}
+      ]
+    },
+    {
+      "ability_id": 20,
+      "ability_name": "Minor Health Boost",
+      "ability_desc": "Increase maximum HP",
+      "category": "Stat",
+      "rarity": 0,
+      "is_repeated": true,
+      "is_endgame": false,
+      "max_level": 1,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/MinorHealthBoost",
+      "prefab_path": "Abilities/MinorHealthBoost",
+      "levels": [
+        {"level": 1, "max_hp_multiplier": 1.1}
+      ]
+    },
+    {
+      "ability_id": 21,
+      "ability_name": "Minor Power Boost",
+      "ability_desc": "Increase attack damage",
+      "category": "Stat",
+      "rarity": 0,
+      "is_repeated": true,
+      "is_endgame": false,
+      "max_level": 1,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/MinorPowerBoost",
+      "prefab_path": "Abilities/MinorPowerBoost",
+      "levels": [
+        {"level": 1, "attack_damage_multiplier": 1.1}
+      ]
+    },
+    {
+      "ability_id": 22,
+      "ability_name": "Critical Strike",
+      "ability_desc": "Increase critical hit chance",
+      "category": "Stat",
+      "rarity": 1,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/CriticalStrike",
+      "prefab_path": "Abilities/CriticalStrike",
+      "levels": [
+        {"level": 1, "crit_chance_bonus": 5, "crit_damage_multiplier": 1.5},
+        {"level": 2, "crit_chance_bonus": 8, "crit_damage_multiplier": 1.6},
+        {"level": 3, "crit_chance_bonus": 12, "crit_damage_multiplier": 1.7},
+        {"level": 4, "crit_chance_bonus": 15, "crit_damage_multiplier": 1.8},
+        {"level": 5, "crit_chance_bonus": 20, "crit_damage_multiplier": 2.0}
+      ]
+    },
+    {
+      "ability_id": 30,
+      "ability_name": "Fire Spirit",
+      "ability_desc": "Summon a fire spirit to fight alongside you",
+      "category": "Spirit",
+      "rarity": 2,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/FireSpirit",
+      "prefab_path": "Abilities/FireSpirit",
+      "levels": [
+        {"level": 1, "spirit_attack_delay": 2.0, "spirit_damage_multiplier": 0.5, "effect_duration": 2.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.05, "effect_damage_interval": 0.5},
+        {"level": 2, "spirit_attack_delay": 1.8, "spirit_damage_multiplier": 0.6, "effect_duration": 2.5, "effect_deals_dot": true, "effect_damage_multiplier": 0.08, "effect_damage_interval": 0.5},
+        {"level": 3, "spirit_attack_delay": 1.6, "spirit_damage_multiplier": 0.7, "effect_duration": 3.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.1, "effect_damage_interval": 0.5},
+        {"level": 4, "spirit_attack_delay": 1.4, "spirit_damage_multiplier": 0.8, "effect_duration": 3.5, "effect_deals_dot": true, "effect_damage_multiplier": 0.12, "effect_damage_interval": 0.4},
+        {"level": 5, "spirit_attack_delay": 1.2, "spirit_damage_multiplier": 1.0, "effect_duration": 4.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.15, "effect_damage_interval": 0.4}
+      ]
+    },
+    {
+      "ability_id": 40,
+      "ability_name": "Fire Orbs",
+      "ability_desc": "Orbiting fire orbs that damage enemies",
+      "category": "Orb",
+      "rarity": 2,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/FireOrbs",
+      "prefab_path": "Abilities/FireOrbs",
+      "levels": [
+        {"level": 1, "orb_damage_multiplier": 0.3, "effect_duration": 2.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.05, "effect_damage_interval": 0.5},
+        {"level": 2, "orb_damage_multiplier": 0.4, "effect_duration": 2.5, "effect_deals_dot": true, "effect_damage_multiplier": 0.08, "effect_damage_interval": 0.5},
+        {"level": 3, "orb_damage_multiplier": 0.5, "effect_duration": 3.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.1, "effect_damage_interval": 0.5},
+        {"level": 4, "orb_damage_multiplier": 0.6, "effect_duration": 3.5, "effect_deals_dot": true, "effect_damage_multiplier": 0.12, "effect_damage_interval": 0.4},
+        {"level": 5, "orb_damage_multiplier": 0.8, "effect_duration": 4.0, "effect_deals_dot": true, "effect_damage_multiplier": 0.15, "effect_damage_interval": 0.4}
+      ]
+    },
+    {
+      "ability_id": 50,
+      "ability_name": "Heal",
+      "ability_desc": "Restore HP when leveling up",
+      "category": "Defence",
+      "rarity": 0,
+      "is_repeated": true,
+      "is_endgame": false,
+      "max_level": 1,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/Heal",
+      "prefab_path": "Abilities/Heal",
+      "levels": [
+        {"level": 1, "healing_proportion": 0.3}
+      ]
+    },
+    {
+      "ability_id": 51,
+      "ability_name": "Second Chance",
+      "ability_desc": "Revive once when killed",
+      "category": "Defence",
+      "rarity": 3,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 3,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/SecondChance",
+      "prefab_path": "Abilities/SecondChance",
+      "levels": [
+        {"level": 1, "revives": 1, "revive_hp_proportion": 0.3},
+        {"level": 2, "revives": 2, "revive_hp_proportion": 0.4},
+        {"level": 3, "revives": 3, "revive_hp_proportion": 0.5}
+      ]
+    },
+    {
+      "ability_id": 60,
+      "ability_name": "Rage",
+      "ability_desc": "Increase damage when HP is low",
+      "category": "Buff",
+      "rarity": 2,
+      "is_repeated": false,
+      "is_endgame": false,
+      "max_level": 5,
+      "prerequisites": [],
+      "icon_path": "Icons/Abilities/Rage",
+      "prefab_path": "Abilities/Rage",
+      "levels": [
+        {"level": 1, "hp_threshold": 0.5, "attack_damage_multiplier": 1.2, "attack_speed_multiplier": 1.1},
+        {"level": 2, "hp_threshold": 0.5, "attack_damage_multiplier": 1.3, "attack_speed_multiplier": 1.15},
+        {"level": 3, "hp_threshold": 0.5, "attack_damage_multiplier": 1.4, "attack_speed_multiplier": 1.2},
+        {"level": 4, "hp_threshold": 0.5, "attack_damage_multiplier": 1.5, "attack_speed_multiplier": 1.25},
+        {"level": 5, "hp_threshold": 0.5, "attack_damage_multiplier": 1.6, "attack_speed_multiplier": 1.3}
+      ]
+    }
+  ],
+
+  "items": [
+    {
+      "item_id": "weapon_001",
+      "item_type": "Weapon",
+      "item_name": "Iron Bow",
+      "is_default": true,
+      "is_unlocked_by_default": true,
+      "icon_path": "Icons/Items/IronBow",
+      "weapon_config": {
+        "prefab_path": "Weapons/IronBow",
+        "is_right_hand": true,
+        "projectile_prefab_path": "Projectiles/Arrow",
+        "arrow_spacing": 0.3,
+        "shoot_sound_path": "Audio/BowShoot"
+      },
+      "levels": [
+        {"level": 1, "cost": 0, "rarity": 0, "stats": {"Damage": 10, "AttackSpeed": 1.0}},
+        {"level": 2, "cost": 100, "rarity": 0, "stats": {"Damage": 12, "AttackSpeed": 1.05}},
+        {"level": 3, "cost": 200, "rarity": 1, "stats": {"Damage": 15, "AttackSpeed": 1.1}},
+        {"level": 4, "cost": 400, "rarity": 1, "stats": {"Damage": 18, "AttackSpeed": 1.15}},
+        {"level": 5, "cost": 800, "rarity": 2, "stats": {"Damage": 22, "AttackSpeed": 1.2}}
+      ]
+    },
+    {
+      "item_id": "weapon_002",
+      "item_type": "Weapon",
+      "item_name": "Crossbow",
+      "is_default": false,
+      "is_unlocked_by_default": false,
+      "icon_path": "Icons/Items/Crossbow",
+      "weapon_config": {
+        "prefab_path": "Weapons/Crossbow",
+        "is_right_hand": true,
+        "projectile_prefab_path": "Projectiles/Bolt",
+        "arrow_spacing": 0.25,
+        "shoot_sound_path": "Audio/CrossbowShoot"
+      },
+      "levels": [
+        {"level": 1, "cost": 500, "rarity": 1, "stats": {"Damage": 15, "AttackSpeed": 0.8, "CriticalChance": 5}},
+        {"level": 2, "cost": 200, "rarity": 1, "stats": {"Damage": 18, "AttackSpeed": 0.85, "CriticalChance": 8}},
+        {"level": 3, "cost": 400, "rarity": 2, "stats": {"Damage": 22, "AttackSpeed": 0.9, "CriticalChance": 10}},
+        {"level": 4, "cost": 800, "rarity": 2, "stats": {"Damage": 26, "AttackSpeed": 0.95, "CriticalChance": 12}},
+        {"level": 5, "cost": 1500, "rarity": 3, "stats": {"Damage": 32, "AttackSpeed": 1.0, "CriticalChance": 15}}
+      ]
+    },
+    {
+      "item_id": "armor_001",
+      "item_type": "Armor",
+      "item_name": "Leather Armor",
+      "is_default": true,
+      "is_unlocked_by_default": true,
+      "icon_path": "Icons/Items/LeatherArmor",
+      "levels": [
+        {"level": 1, "cost": 0, "rarity": 0, "stats": {"HP": 20, "DamageReduction": 0.95}},
+        {"level": 2, "cost": 100, "rarity": 0, "stats": {"HP": 30, "DamageReduction": 0.92}},
+        {"level": 3, "cost": 200, "rarity": 1, "stats": {"HP": 45, "DamageReduction": 0.88}},
+        {"level": 4, "cost": 400, "rarity": 1, "stats": {"HP": 60, "DamageReduction": 0.85}},
+        {"level": 5, "cost": 800, "rarity": 2, "stats": {"HP": 80, "DamageReduction": 0.80}}
+      ]
+    },
+    {
+      "item_id": "helmet_001",
+      "item_type": "Helmet",
+      "item_name": "Leather Cap",
+      "is_default": true,
+      "is_unlocked_by_default": true,
+      "icon_path": "Icons/Items/LeatherCap",
+      "levels": [
+        {"level": 1, "cost": 0, "rarity": 0, "stats": {"HP": 10}},
+        {"level": 2, "cost": 80, "rarity": 0, "stats": {"HP": 15}},
+        {"level": 3, "cost": 160, "rarity": 1, "stats": {"HP": 22}},
+        {"level": 4, "cost": 320, "rarity": 1, "stats": {"HP": 30}},
+        {"level": 5, "cost": 640, "rarity": 2, "stats": {"HP": 40}}
+      ]
+    },
+    {
+      "item_id": "ring_001",
+      "item_type": "Ring",
+      "item_name": "Power Ring",
+      "is_default": false,
+      "is_unlocked_by_default": false,
+      "icon_path": "Icons/Items/PowerRing",
+      "levels": [
+        {"level": 1, "cost": 300, "rarity": 1, "stats": {"Damage": 5}},
+        {"level": 2, "cost": 150, "rarity": 1, "stats": {"Damage": 8}},
+        {"level": 3, "cost": 300, "rarity": 2, "stats": {"Damage": 12}},
+        {"level": 4, "cost": 600, "rarity": 2, "stats": {"Damage": 16}},
+        {"level": 5, "cost": 1200, "rarity": 3, "stats": {"Damage": 22}}
+      ]
+    }
+  ],
+
+  "balance_formulas": {
+    "description": "游戏平衡公式说明",
+    "enemy_damage_formula": "FinalDamage = BaseDamage * (1 + DamageMultiplier + RoomStep * RoomIndex + WaveStep * WaveIndex)",
+    "enemy_hp_formula": "FinalHP = BaseHP * (1 + HPMultiplier + RoomStep * RoomIndex + WaveStep * WaveIndex)",
+    "player_damage_formula": "FinalDamage = BaseDamage * AttackDamageMultiplier * WeaponDamageMultiplier * AbilityMultipliers",
+    "crit_damage_formula": "CritDamage = FinalDamage * CritDamageMultiplier",
+    "dot_damage_formula": "DOTDamage = BaseDamage * EffectDamageMultiplier (per interval)"
+  }
+}

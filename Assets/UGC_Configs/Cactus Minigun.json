@@ -1,0 +1,38 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Cactus/Cactus Minigun.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Cactus/cactus_minigun.wav",
+      "volume": {
+        "value": 1,
+        "min": 0.5,
+        "max": 0.6,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 0
+      },
+      "chance": 0.5
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0
+}

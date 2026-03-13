@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Starfall Ability Data.asset",
+  "type": 30,
+  "prerequisites": null,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "星落",
+  "description": "星星生成频率增加",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_starfall.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Starfall Ability.prefab",
+  "levels": [
+    {
+      "starsSpawnIntervalMultiplier": 0.75
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Four Leaf Clover Ability Data.asset",
+  "type": 34,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "四叶草",
+  "description": "增加获得新能力和躲避攻击的运气",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_four_leaf_clover.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Four Leaf Clover Ability.prefab",
+  "levels": [
+    {
+      "additionalLuckLevels": 1,
+      "dodgeChancePercent": 8
+    }
+  ]
+}

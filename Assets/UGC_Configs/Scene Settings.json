@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Scene Settings.asset",
+  "mainMenuScene": {
+    "scene": "Assets/The Archer/Scenes/Main Menu.unity",
+    "sceneName": "Main Menu",
+    "sceneIndex": 0
+  },
+  "gameScene": {
+    "scene": "Assets/The Archer/Scenes/Game.unity",
+    "sceneName": "Game",
+    "sceneIndex": 2
+  },
+  "loadingScene": {
+    "scene": "Assets/The Archer/Scenes/Loading Screen.unity",
+    "sceneName": "Loading Screen",
+    "sceneIndex": 1
+  }
+}

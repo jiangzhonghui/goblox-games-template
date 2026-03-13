@@ -1,0 +1,37 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Cauldron/Cauldron Splatter.asset",
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/cauldron_splatter_1.wav",
+      "volume": {
+        "value": 1,
+        "min": 0.5,
+        "max": 0.6,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 0.5
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0
+}

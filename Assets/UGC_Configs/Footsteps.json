@@ -1,0 +1,53 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Misc/Footsteps.asset",
+  "audioDataType": 1,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Hero/footstep_1.wav",
+      "volume": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1,
+        "propertyType": 1
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.3,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Hero/footstep_2.wav",
+      "volume": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1,
+        "propertyType": 1
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.3,
+        "propertyType": 1
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0
+}

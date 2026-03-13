@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Spirit Abilities/Spirit Lord Ability Data.asset",
+  "type": 48,
+  "rarity": 3,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "终极灵体",
+  "description": "召唤终极灵体",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ultimate_spirit.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Spirit Abilities/Ultimate Spirit Ability.prefab",
+  "levels": [
+    {
+      "spiritAttackDelay": 1,
+      "spiritDamageMultiplier": 1
+    }
+  ]
+}

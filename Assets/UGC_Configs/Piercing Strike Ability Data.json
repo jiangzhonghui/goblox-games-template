@@ -1,0 +1,16 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Piercing Strike Ability Data.asset",
+  "type": 5,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "穿透打击",
+  "description": "攻击可穿透敌人",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_piercing_strike.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Piercing Strike Ability.prefab",
+  "levels": [
+    {
+      "arrowDamageMultiplier": 0.9
+    }
+  ]
+}

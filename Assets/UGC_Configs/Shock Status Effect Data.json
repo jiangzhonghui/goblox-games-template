@@ -1,0 +1,6 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Effects/Shock Status Effect Data.asset",
+  "effectAppliedSound": "Assets/The Archer/Scriptables/Audio/Abilities/Status Effects/Shock.asset",
+  "effectTickSound": "Assets/The Archer/Scriptables/Audio/Abilities/Status Effects/Shock Tick.asset",
+  "effectEndedSound": null
+}

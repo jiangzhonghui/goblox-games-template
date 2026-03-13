@@ -1,0 +1,47 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Ring 1 Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Ring 1 Data.asset",
+  "itemType": 3,
+  "itemName": "海蓝宝石戒指",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_ring_1.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 0,
+      "itemRarity": 2,
+      "- statType": 3,
+      "value": 1.02,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 400,
+      "itemRarity": 2,
+      "- statType": 3,
+      "value": 1.04,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 600,
+      "itemRarity": 2,
+      "- statType": 3,
+      "value": 1.06,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 800,
+      "itemRarity": 2,
+      "- statType": 3,
+      "value": 1.08,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1000,
+      "itemRarity": 2,
+      "- statType": 3,
+      "value": 1.1,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": 47000000
+    }
+  ]
+}

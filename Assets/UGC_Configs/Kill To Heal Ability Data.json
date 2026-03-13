@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Kill To Heal Ability Data.asset",
+  "type": 57,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "击杀回血",
+  "description": "击杀敌人有几率恢复生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_kill_to_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Kill To Heal Ability.prefab",
+  "levels": [
+    {
+      "healChance": 0.8,
+      "maxHealthProportionHeal": 0.1
+    }
+  ]
+}

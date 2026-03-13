@@ -1,0 +1,39 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Mask/Mask Hand Attack.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Mask/mask_laugh.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 0.7,
+        "max": 1,
+        "propertyType": 0
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0,
+  "vibrateOnPlay": 0
+}

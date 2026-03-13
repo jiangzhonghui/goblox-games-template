@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Shock Enhancement Ability Data.asset",
+  "type": 22,
+  "prerequisites": null,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "电击增强",
+  "description": "电击造成更多伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_shock_enhancement.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Shock Enhancement Ability.prefab",
+  "levels": [
+    {
+      "shockDamageMultiplier": 1.5,
+      "arrowSpeedMultiplier": 1.5
+    }
+  ]
+}

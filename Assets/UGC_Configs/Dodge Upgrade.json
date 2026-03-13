@@ -1,0 +1,33 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Dodge Upgrade.asset",
+  "upgradeType": 3,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_dodge.png",
+  "title": "闪避几率",
+  "description": "增加你\r\n闪避来袭攻击的几率",
+  "statsText": "{0}%><color=#75F05F>{1}%</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/Dodge Chance Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 100,
+      "value": 2
+    },
+    {
+      "cost": 250,
+      "value": 4
+    },
+    {
+      "cost": 600,
+      "value": 6
+    },
+    {
+      "cost": 1200,
+      "value": 8
+    },
+    {
+      "cost": 2400,
+      "value": 10
+    }
+  ]
+}

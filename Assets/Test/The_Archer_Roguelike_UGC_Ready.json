@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "name": "The Archer Roguelike",
+    "type": "Unity Game Project",
+    "category": "Roguelike + Action Shooter + RPG",
+    "description": "弓箭手在随机生成的地牢中冒险，通过击败各种敌人和Boss获得经验和装备提升。游戏采用Roguelike机制，支持技能组合策略玩法。",
+    "tags": ["弓箭手", "Roguelike", "技能组合", "Boss战", "装备升级"],
+    "technical_stack": "Unity 2D + ScriptableObject + JSON配置",
+    "export_date": "2026-03-02"
+  },
+  "systems": {
+    "player_control": {
+      "description": "包含角色移动、攻击控制、武器切换、状态管理",
+      "implementation": "PlayerBehavior + HeroBehavior双层架构"
+    },
+    "combat_system": {
+      "description": "包含弹道计算、伤害结算、暴击系统、元素效果",
+      "implementation": "WeaponBehavior + 弹道系统 + 攻击动画"
+    },
+    "enemy_ai": {
+      "description": "包含22种敌人行为、Boss多阶段战斗、寻路导航",
+      "implementation": "EnemyBehavior基类 + 22个具体行为子类"
+    },
+    "ability_system": {
+      "description": "包含7大类技能、升级机制、技能组合效果",
+      "implementation": "AbilitiesManager + 技能数据驱动升级"
+    },
+    "equipment_system": {
+      "description": "包含4类装备、升级强化、属性加成、稀有度系统",
+      "implementation": "ArmoryManager + 装备属性计算"
+    }
+  },
+  "data_statistics": {
+    "enemies": {
+      "total": 22,
+      "bosses": 6,
+      "types": ["普通怪", "Boss"]
+    },
+    "abilities": {
+      "total": "12+",
+      "categories": 7,
+      "types": ["武器", "元素", "属性", "精灵", "法球", "防御", "增益"]
+    },
+    "equipment": {
+      "types": 4,
+      "categories": ["武器", "护甲", "头盔", "戒指"],
+      "upgrade_levels": 5
+    },
+    "rarity_system": {
+      "levels": 4,
+      "distribution": {
+        "Common": "60%",
+        "Rare": "25%",
+        "Mystic": "12%",
+        "Legendary": "3%"
+      }
+    }
+  },
+  "ugc_readiness": {
+    "csv_files": [
+      "The_Archer_Roguelike_项目分析表格.csv",
+      "The_Archer_Roguelike_敌人数据表.csv",
+      "The_Archer_Roguelike_装备数据表.csv",
+      "The_Archer_Roguelike_技能数据表.csv"
+    ],
+    "markdown_documentation": "The_Archer_Roguelike_项目分析表格.md",
+    "upload_ready": true,
+    "data_validation": "completed"
+  }
+}

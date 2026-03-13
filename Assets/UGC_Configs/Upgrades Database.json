@@ -1,0 +1,14 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Upgrades Database.asset",
+  "upgrades": [
+    "Assets/The Archer/Scriptables/Upgrades/Attack Speed Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Base HP Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Crit Chance Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Dodge Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/HP Recovery Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Move Speed Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Power Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Revive Upgrade.asset",
+    "Assets/The Archer/Scriptables/Upgrades/Shield Upgrade.asset"
+  ]
+}

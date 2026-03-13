@@ -1,0 +1,26 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Testing Database.asset",
+  "presets": [
+    {
+      "name": "Orbs",
+      "enabledInEditor": 0,
+      "enabledInBuild": 0,
+      "- abilityType": 56,
+      "level": 0
+    },
+    {
+      "name": "Spirits",
+      "enabledInEditor": 0,
+      "enabledInBuild": 0,
+      "- abilityType": 43,
+      "level": 0
+    },
+    {
+      "name": "Arrows",
+      "enabledInEditor": 0,
+      "enabledInBuild": 0,
+      "- abilityType": 10,
+      "level": 1
+    }
+  ]
+}

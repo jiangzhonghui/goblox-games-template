@@ -1,0 +1,33 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/HP Recovery Upgrade.asset",
+  "upgradeType": 1,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_heal.png",
+  "title": "波次恢复",
+  "description": "在每波结束时\r\n恢复少量\r\n最大生命值",
+  "statsText": "{0}%><color=#75F05F>{1}%</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/HP Recovery Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 100,
+      "value": 1
+    },
+    {
+      "cost": 250,
+      "value": 2
+    },
+    {
+      "cost": 600,
+      "value": 3
+    },
+    {
+      "cost": 1200,
+      "value": 4
+    },
+    {
+      "cost": 2400,
+      "value": 5
+    }
+  ]
+}

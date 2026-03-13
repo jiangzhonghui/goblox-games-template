@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Protector Ability Data.asset",
+  "type": 59,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "守护者",
+  "description": "受到伤害后获得无敌状态",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_protector.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Protector Ability.prefab",
+  "levels": [
+    {
+      "maxHPMultiplier": 1.15,
+      "invincibilityDuration": 2,
+      "invincibilityCooldown": 10
+    }
+  ]
+}

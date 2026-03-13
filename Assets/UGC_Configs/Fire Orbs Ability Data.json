@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Fire Orbs Ability Data.asset",
+  "type": 51,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "火焰宝珠",
+  "description": "获得环绕的火焰宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ignite_orbs.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Fire Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.5,
+      "effectDuration": 3,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 1
+    }
+  ]
+}

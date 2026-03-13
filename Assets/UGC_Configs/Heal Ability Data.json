@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Heal Ability Data.asset",
+  "type": 58,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 0,
+  "title": "治疗",
+  "description": "恢复一定量的生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Heal Ability.prefab",
+  "levels": [
+    {
+      "healingProportion": {
+        "value": 0.1,
+        "min": 0.4,
+        "max": 0.8,
+        "propertyType": 1
+      }
+    }
+  ]
+}

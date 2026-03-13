@@ -1,0 +1,61 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Mask/Mask Projectile Launching.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Mask/mask_launching.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 0.7,
+        "max": 1,
+        "propertyType": 0
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 1,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0,
+        "value": 0.8622742,
+        "inSlope": 0.8578205,
+        "outSlope": 0.8578205,
+        "tangentMode": 34,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0.3333333
+      },
+      {
+        "serializedVersion": 3,
+        "time": 0.3890991,
+        "value": 1.196051,
+        "inSlope": 0.8578205,
+        "outSlope": 0.8578205,
+        "tangentMode": 34,
+        "weightedMode": 0,
+        "inWeight": 0.3333333,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0
+}

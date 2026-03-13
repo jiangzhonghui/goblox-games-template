@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Cure Ability Data.asset",
+  "type": 61,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "治愈",
+  "description": "完全治愈并增加最大生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_cure.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Cure Ability.prefab",
+  "levels": [
+    {
+      "maxHPMultiplier": 1.2,
+      "maxHealthProportionHeal": 1
+    }
+  ]
+}

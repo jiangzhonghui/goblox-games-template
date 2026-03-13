@@ -1,0 +1,28 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Medium Power Ability Data.asset",
+  "type": 35,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "中等力量",
+  "description": "适度增加攻击伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_medium_power_boost.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Medium Power Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 1.2
+    },
+    {
+      "attackDamageMultiplier": 1.4
+    },
+    {
+      "attackDamageMultiplier": 1.6
+    },
+    {
+      "attackDamageMultiplier": 1.8
+    },
+    {
+      "attackDamageMultiplier": 2
+    }
+  ]
+}

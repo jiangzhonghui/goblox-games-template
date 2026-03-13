@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Bullseye Ability Data.asset",
+  "type": 12,
+  "prerequisites": [],
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "正中靶心",
+  "description": "攻击变得更加精准",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_bullseye.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Bullseye Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 0.9,
+      "magnetismMultiplier": 0.3
+    }
+  ]
+}

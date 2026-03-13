@@ -1,0 +1,16 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Second Chance Ability Data.asset",
+  "type": 63,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "第二次机会",
+  "description": "战败后立即重返战斗。每局一次",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_second_chance.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Second Chance Ability.prefab",
+  "levels": [
+    {
+      "revivesCount": 1
+    }
+  ]
+}

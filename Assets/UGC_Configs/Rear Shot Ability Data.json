@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Rear Shot Ability Data.asset",
+  "type": 1,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "后方射击",
+  "description": "从后方发射额外的抛射物",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_rear_shot.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Rear Shot Ability.prefab",
+  "levels": [
+    {
+      "backArrowsCount": 1,
+      "backArrowsDamageMultiplier": 1
+    },
+    {
+      "backArrowsCount": 2,
+      "backArrowsDamageMultiplier": 0.8
+    }
+  ]
+}

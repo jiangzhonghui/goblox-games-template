@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Common Heal Ability Data.asset",
+  "type": 72,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "普通治疗",
+  "description": "恢复少量生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Common Heal Ability.prefab",
+  "levels": [
+    {
+      "healingProportion": {
+        "value": 0.3,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      }
+    }
+  ]
+}

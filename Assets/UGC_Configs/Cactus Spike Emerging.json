@@ -1,0 +1,62 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Cactus/Cactus Spike Emerging.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Cactus/cactus_spike_emerging.wav",
+      "volume": {
+        "value": 1,
+        "min": 0.5,
+        "max": 0.6,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 0
+      },
+      "chance": 0.5
+    }
+  ],
+  "isPitchCurveActive": 1,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0.01994052,
+        "value": 1.014798,
+        "inSlope": 0.05963736,
+        "outSlope": 0.05963736,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0.143808
+      },
+      {
+        "serializedVersion": 3,
+        "time": 4.944966,
+        "value": 1.39059,
+        "inSlope": 0.1004528,
+        "outSlope": 0.1004528,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0.1264986,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 8,
+  "vibrateOnPlay": 1
+}

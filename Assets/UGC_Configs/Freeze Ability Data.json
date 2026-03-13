@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Freeze Ability Data.asset",
+  "type": 14,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "冰冻",
+  "description": "攻击有几率冻结敌人",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_freeze.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Freezing Ability.prefab",
+  "levels": [
+    {
+      "effectDuration": 1.2,
+      "targetSpeedMultiplier": 0,
+      "arrowDamageMultiplier": 0.9,
+      "effectDealsDamageOverTime": 0,
+      "effectDamageMultiplier": 0,
+      "effectDamageInterval": 0
+    }
+  ]
+}

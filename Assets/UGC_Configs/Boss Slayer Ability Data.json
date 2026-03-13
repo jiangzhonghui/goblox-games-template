@@ -1,0 +1,16 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Boss Slayer Ability Data.asset",
+  "type": 26,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "首领杀手",
+  "description": "对首领造成更多伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_boss_slayer.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Boss Slayer Ability.prefab",
+  "levels": [
+    {
+      "damageToBossesMultiplier": 1.2
+    }
+  ]
+}

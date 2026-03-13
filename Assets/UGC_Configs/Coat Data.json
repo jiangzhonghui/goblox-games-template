@@ -1,0 +1,68 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Coat Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Coat Data.asset",
+  "itemType": 1,
+  "itemName": "神秘斗篷",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_coat_1.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 100,
+      "itemRarity": 1,
+      "- statType": 2,
+      "value": 1.02,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 200,
+      "itemRarity": 1,
+      "- statType": 2,
+      "value": 1.04,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 400,
+      "itemRarity": 2,
+      "- statType": 2,
+      "value": 1.06,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": 2
+    },
+    {
+      "cost": 400,
+      "itemRarity": 2,
+      "- statType": 2,
+      "value": 1.08,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 500,
+      "itemRarity": 1,
+      "- statType": 2,
+      "value": 1.1,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 600,
+      "itemRarity": 1,
+      "- statType": 2,
+      "value": 1.12,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 700,
+      "itemRarity": 1,
+      "- statType": 2,
+      "value": 1.14,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 800,
+      "itemRarity": 1,
+      "- statType": 2,
+      "value": 1.16,
+      "isVisibleOnUI": 1
+    }
+  ]
+}

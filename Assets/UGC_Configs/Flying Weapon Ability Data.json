@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Flying Weapon Ability Data.asset",
+  "type": 9,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "飞行武器",
+  "description": "武器自动飞行并攻击，但会失去部分力量和",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_flying_weapon.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Flying Weapon Ability.prefab",
+  "levels": [
+    {
+      "attackSpeedMultiplier": 0.7,
+      "attackDamageMultiplier": 0.8
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Minor Power Boost Ability Data.asset",
+  "type": 29,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "微量力量提升",
+  "description": "轻微增加攻击伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_minor_power_boost.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Minor Power Boost Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 1.1
+    },
+    {
+      "attackDamageMultiplier": 1.2
+    },
+    {
+      "attackDamageMultiplier": 1.3
+    },
+    {
+      "attackDamageMultiplier": 1.4
+    },
+    {
+      "attackDamageMultiplier": 1.5
+    }
+  ]
+}

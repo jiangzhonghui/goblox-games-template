@@ -1,0 +1,24 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Shock Ability Data.asset",
+  "type": 15,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "电击",
+  "description": "攻击有几率电击敌人",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_shock.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Shock Ability.prefab",
+  "levels": [
+    {
+      "effectDuration": 3,
+      "shockSpreadProjectulePrefab": "Assets/The Archer/Prefabs/Projectiles/Enemies/Shock Spread Projectile.prefab",
+      "shockSpreadRadius": 4,
+      "shockSpreadDamageMultiplier": 0.4,
+      "arrowDamageMultiplier": 0.8,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 0.8
+    }
+  ]
+}

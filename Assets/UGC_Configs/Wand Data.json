@@ -1,0 +1,79 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Wand Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Wand Data.asset",
+  "itemType": 0,
+  "itemName": "仪式法杖",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_wand_2.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 100,
+      "itemRarity": 2,
+      "- statType": 0,
+      "value": 12,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 200,
+      "itemRarity": 2,
+      "- statType": 0,
+      "value": 18,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 300,
+      "itemRarity": 1,
+      "- statType": 0,
+      "value": 24,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 400,
+      "itemRarity": 1,
+      "- statType": 0,
+      "value": 30,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 500,
+      "itemRarity": 1,
+      "- statType": 0,
+      "value": 36,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 800,
+      "itemRarity": 2,
+      "- statType": 2,
+      "value": 1.02,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1200,
+      "itemRarity": 2,
+      "- statType": 2,
+      "value": 1.04,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": 12000000
+    },
+    {
+      "cost": 1800,
+      "itemRarity": 3,
+      "- statType": 2,
+      "value": 1.06,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": 12000000
+    },
+    {
+      "cost": 2400,
+      "itemRarity": 3,
+      "- statType": 2,
+      "value": 1.08,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": 18000000
+    }
+  ],
+  "weaponPrefab": "Assets/The Archer/Prefabs/Weapons/Wand.prefab",
+  "isRightHandWeapon": 1
+}

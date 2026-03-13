@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Split Shot Ability Data.asset",
+  "type": 8,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "分裂射击",
+  "description": "抛射物分裂成数个较小的抛射物",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_split_shot.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Split Shot Ability.prefab",
+  "levels": [
+    {
+      "splitArrowsCount": 5,
+      "splitArrowDamageMultiplier": 0.5
+    }
+  ]
+}

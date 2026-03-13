@@ -1,0 +1,26 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Ricochet Ability Data.asset",
+  "type": 7,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "跳弹",
+  "description": "抛射物会从敌人身上反弹",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ricochet.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Ricochet Ability.prefab",
+  "levels": [
+    {
+      "arrowRicochetCount": 1,
+      "eachRicochetDamageMultiplier": 0.4
+    },
+    {
+      "arrowRicochetCount": 2,
+      "eachRicochetDamageMultiplier": 0.5
+    },
+    {
+      "arrowRicochetCount": 2,
+      "eachRicochetDamageMultiplier": 0.6
+    }
+  ]
+}

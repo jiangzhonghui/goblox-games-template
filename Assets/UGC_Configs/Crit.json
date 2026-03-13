@@ -1,0 +1,55 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Abilities/Status Effects/Crit.asset",
+  "audioGroup": 0,
+  "audioDataType": 1,
+  "cooldown": {
+    "value": 0.1,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Abilities/crit_1.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.2,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Abilities/crit_2.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.2,
+        "propertyType": 1
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0,
+  "vibrateOnPlay": 0
+}

@@ -1,0 +1,54 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Ring 2 Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Ring 2 Data.asset",
+  "itemType": 3,
+  "itemName": "紫水晶戒指",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_ring_2.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 0,
+      "itemRarity": 3,
+      "- statType": 4,
+      "value": 1.02,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1500,
+      "itemRarity": 3,
+      "- statType": 4,
+      "value": 1.1,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1800,
+      "itemRarity": 3,
+      "- statType": 4,
+      "value": 1.2,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 2000,
+      "itemRarity": 3,
+      "- statType": 4,
+      "value": 1.3,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 2200,
+      "itemRarity": 3,
+      "- statType": 4,
+      "value": 1.4,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 2500,
+      "itemRarity": 3,
+      "- statType": 4,
+      "value": 1.5,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": 40000000
+    }
+  ]
+}

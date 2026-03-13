@@ -1,0 +1,89 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Armory Database.asset",
+  "items": [
+    "Assets/The Archer/Scriptables/Armory/Items/Bow Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Wand Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Armor Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Coat Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Hat Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Helmet Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Ring 1 Data.asset",
+    "Assets/The Archer/Scriptables/Armory/Items/Ring 2 Data.asset"
+  ],
+  "heroes": [
+    "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 001.asset",
+    "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 002.asset"
+  ],
+  "itemRarities": [
+    {
+      "rarityType": 0,
+      "mainColor": null,
+      "secondaryColor": null,
+      "wideBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_common_alt.png",
+      "narrowBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_common.png"
+    },
+    {
+      "rarityType": 1,
+      "mainColor": null,
+      "secondaryColor": null,
+      "wideBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_rare_alt.png",
+      "narrowBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_rare.png"
+    },
+    {
+      "rarityType": 2,
+      "mainColor": null,
+      "secondaryColor": null,
+      "wideBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_mystic_alt.png",
+      "narrowBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_mystic.png"
+    },
+    {
+      "rarityType": 3,
+      "mainColor": null,
+      "secondaryColor": null,
+      "wideBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_legendary_alt.png",
+      "narrowBorderBackground": "Assets/The Archer/Sprites/UI/Armory/ui_item_legendary.png"
+    }
+  ],
+  "itemTypes": [
+    {
+      "itemType": 0,
+      "itemTypeIcon": "Assets/The Archer/Sprites/UI/Armory/ui_slot_weapon.png"
+    },
+    {
+      "itemType": 1,
+      "itemTypeIcon": "Assets/The Archer/Sprites/UI/Armory/ui_slot_armor.png"
+    },
+    {
+      "itemType": 2,
+      "itemTypeIcon": "Assets/The Archer/Sprites/UI/Armory/ui_slot_helmet.png"
+    },
+    {
+      "itemType": 3,
+      "itemTypeIcon": "Assets/The Archer/Sprites/UI/Armory/ui_slot_ring.png"
+    }
+  ],
+  "weaponAnimationSetData": {
+    "weaponAnimationSets": [
+      {
+        "weaponId": "Assets/The Archer/Scriptables/Armory/Items/Bow Data.asset",
+        "heroId": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 001.asset",
+        "animationsSet": "Assets/The Archer/Scriptables/Armory/Items/Animation Sets/Bow Animations Set.asset"
+      },
+      {
+        "weaponId": "Assets/The Archer/Scriptables/Armory/Items/Bow Data.asset",
+        "heroId": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 002.asset",
+        "animationsSet": "Assets/The Archer/Scriptables/Armory/Items/Animation Sets/Bow Animations Set.asset"
+      },
+      {
+        "weaponId": "Assets/The Archer/Scriptables/Armory/Items/Wand Data.asset",
+        "heroId": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 001.asset",
+        "animationsSet": "Assets/The Archer/Scriptables/Armory/Items/Animation Sets/Wand Animations Set.asset"
+      },
+      {
+        "weaponId": "Assets/The Archer/Scriptables/Armory/Items/Wand Data.asset",
+        "heroId": "Assets/The Archer/Scriptables/Armory/Heroes/Hero Data 002.asset",
+        "animationsSet": "Assets/The Archer/Scriptables/Armory/Items/Animation Sets/Wand Animations Set.asset"
+      }
+    ]
+  }
+}

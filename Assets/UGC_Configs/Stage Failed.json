@@ -1,0 +1,62 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/UI/Stage Failed.asset",
+  "audioGroup": 1,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/UI Sounds/stage_failed.wav",
+      "volume": {
+        "value": 1,
+        "min": 1,
+        "max": 1,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 0.95,
+        "max": 1,
+        "propertyType": 0
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0,
+        "value": 1,
+        "inSlope": 0,
+        "outSlope": 0,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      },
+      {
+        "serializedVersion": 3,
+        "time": 9.995361,
+        "value": 1.099813,
+        "inSlope": 0.01677822,
+        "outSlope": 0.01677822,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0.01557357,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0,
+  "vibrateOnPlay": 1
+}

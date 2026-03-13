@@ -1,0 +1,39 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Ice Slime/Ice Slime Shake.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Ice Slime/ice_slime_shake.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 0
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": "[]",
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0,
+  "vibrateOnPlay": 1
+}

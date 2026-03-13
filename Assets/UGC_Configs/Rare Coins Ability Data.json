@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Rare Coins Ability Data.asset",
+  "type": 77,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "稀有金币",
+  "description": "获得适量金币",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_coins.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Rare Coins Ability.prefab",
+  "levels": [
+    {
+      "amountOfCoins": 40
+    }
+  ]
+}

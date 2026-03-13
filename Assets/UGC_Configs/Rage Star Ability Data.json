@@ -1,0 +1,20 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Buff Abilities/Rage Star Ability Data.asset",
+  "type": 66,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "狂怒之星",
+  "description": "拾取狂怒之星以增加攻击速度和暴击几率",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_rage_star.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Buff Abilities/Rage Star Ability.prefab",
+  "levels": [
+    {
+      "abilityDuration": 3,
+      "starSpawnInterval": 8,
+      "critChangeIncreasePercent": 25,
+      "attackSpeedMultiplier": 1.4
+    }
+  ]
+}

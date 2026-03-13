@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Poison Orbs Ability Data.asset",
+  "type": 52,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "剧毒宝珠",
+  "description": "获得环绕的剧毒宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_poison_orbs.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Poison Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.5,
+      "effectDuration": 3,
+      "targetDamageReductionMultiplier": 0.6,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 0.8
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Minor Health Boost Ability Data.asset",
+  "type": 27,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "微量生命提升",
+  "description": "轻微增加最大生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_minor_health_boost.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Minor Health Boost Ability.prefab",
+  "levels": [
+    {
+      "maxHPMultiplier": 1.1
+    },
+    {
+      "maxHPMultiplier": 1.2
+    },
+    {
+      "maxHPMultiplier": 1.3
+    },
+    {
+      "maxHPMultiplier": 1.4
+    },
+    {
+      "maxHPMultiplier": 1.5
+    },
+    {
+      "maxHPMultiplier": 1.6
+    },
+    {
+      "maxHPMultiplier": 1.7
+    },
+    {
+      "maxHPMultiplier": 1.8
+    },
+    {
+      "maxHPMultiplier": 1.9
+    },
+    {
+      "maxHPMultiplier": 2
+    },
+    {
+      "maxHPMultiplier": 2.1
+    },
+    {
+      "maxHPMultiplier": 2.2
+    },
+    {
+      "maxHPMultiplier": 2.3
+    },
+    {
+      "maxHPMultiplier": 2.4
+    },
+    {
+      "maxHPMultiplier": 2.5
+    },
+    {
+      "maxHPMultiplier": 2.6
+    },
+    {
+      "maxHPMultiplier": 2.7
+    },
+    {
+      "maxHPMultiplier": 2.8
+    },
+    {
+      "maxHPMultiplier": 2.9
+    },
+    {
+      "maxHPMultiplier": 3
+    }
+  ]
+}

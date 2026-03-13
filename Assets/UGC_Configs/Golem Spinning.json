@@ -1,0 +1,61 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Golem/Golem Spinning.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Golem/golem_spinning.wav",
+      "volume": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1.5,
+        "min": 1.2,
+        "max": 1.5,
+        "propertyType": 1
+      },
+      "chance": 0
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0.03869629,
+        "value": 1.000366,
+        "inSlope": 0.3491806,
+        "outSlope": 0.3491806,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0.3648775
+      },
+      {
+        "serializedVersion": 3,
+        "time": 2.258163,
+        "value": 2.966217,
+        "inSlope": 0.691195,
+        "outSlope": 0.691195,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0.2504968,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 5
+}

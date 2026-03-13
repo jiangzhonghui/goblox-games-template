@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Diagonal Shot Ability Data.asset",
+  "type": 10,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "对角射击",
+  "description": "获得两个对角线方向的抛射物",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_diagonal_shot.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Diagonal Shot Ability.prefab",
+  "levels": [
+    {
+      "diagonalArrowsCount": 1,
+      "diagonalArrowsDamageMultiplier": 0.8
+    },
+    {
+      "diagonalArrowsCount": 2,
+      "diagonalArrowsDamageMultiplier": 0.8
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Weapons & Items/Gem Pick Up.asset",
+  "audioGroup": 0,
+  "audioDataType": 0,
+  "cooldown": {
+    "value": 0.02,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Drop/gem_pickup_3.wav",
+      "volume": {
+        "value": 0,
+        "min": 0.9,
+        "max": 1,
+        "propertyType": 1
+      },
+      "pitch": {
+        "value": 0,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 1,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0,
+        "value": 1,
+        "inSlope": 0,
+        "outSlope": 0,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0
+      },
+      {
+        "serializedVersion": 3,
+        "time": 12.39996,
+        "value": 1.147405,
+        "inSlope": 0.02140516,
+        "outSlope": 0.02140516,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0.1336739,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 2
+}

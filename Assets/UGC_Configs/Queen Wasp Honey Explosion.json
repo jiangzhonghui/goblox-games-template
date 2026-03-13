@@ -1,0 +1,141 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Audio/Enemies/Queen Wasp/Queen Wasp Honey Explosion.asset",
+  "audioGroup": 0,
+  "audioDataType": 1,
+  "cooldown": {
+    "value": 0,
+    "min": 0,
+    "max": 1,
+    "propertyType": 0
+  },
+  "samples": [
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Queen Wasp/queen_wasp_honey_explosion_1.wav",
+      "volume": {
+        "value": 0.8,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Queen Wasp/queen_wasp_honey_explosion_2.wav",
+      "volume": {
+        "value": 0.8,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Queen Wasp/queen_wasp_honey_explosion_3.wav",
+      "volume": {
+        "value": 0.8,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Queen Wasp/queen_wasp_honey_explosion_4.wav",
+      "volume": {
+        "value": 0.8,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Queen Wasp/queen_wasp_honey_explosion_5.wav",
+      "volume": {
+        "value": 0.8,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    },
+    {
+      "clip": "Assets/The Archer/Audio/Sounds/Enemies/Queen Wasp/queen_wasp_honey_explosion_6.wav",
+      "volume": {
+        "value": 0.8,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "pitch": {
+        "value": 1,
+        "min": 1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "chance": 1
+    }
+  ],
+  "isPitchCurveActive": 0,
+  "pitchCurve": {
+    "serializedVersion": 2,
+    "Curve": [
+      {
+        "serializedVersion": 3,
+        "time": 0.007240295,
+        "value": 0.9982605,
+        "inSlope": -0.01329189,
+        "outSlope": -0.01329189,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0,
+        "outWeight": 0.2805378
+      },
+      {
+        "serializedVersion": 3,
+        "time": 3.907547,
+        "value": 2.019165,
+        "inSlope": 0.7837486,
+        "outSlope": 0.7837486,
+        "tangentMode": 0,
+        "weightedMode": 0,
+        "inWeight": 0.1096993,
+        "outWeight": 0
+      }
+    ],
+    "PreInfinity": 2,
+    "PostInfinity": 2,
+    "RotationOrder": 4
+  },
+  "pitchResetCooldown": 0
+}

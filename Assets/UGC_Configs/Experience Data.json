@@ -1,0 +1,129 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Experience Data.asset",
+  "levels": [
+    {
+      "multiplier": 0,
+      "xp": 100
+    },
+    {
+      "multiplier": 1.05,
+      "xp": 105
+    },
+    {
+      "multiplier": 0,
+      "xp": 110.25
+    },
+    {
+      "multiplier": 0,
+      "xp": 115.7625
+    },
+    {
+      "multiplier": 0,
+      "xp": 121.5506
+    },
+    {
+      "multiplier": 0,
+      "xp": 127.6281
+    },
+    {
+      "multiplier": 0,
+      "xp": 134.0095
+    },
+    {
+      "multiplier": 0,
+      "xp": 140.71
+    },
+    {
+      "multiplier": 0,
+      "xp": 147.7455
+    },
+    {
+      "multiplier": 0,
+      "xp": 155.1328
+    },
+    {
+      "multiplier": 0,
+      "xp": 162.8894
+    },
+    {
+      "multiplier": 0,
+      "xp": 171.0338
+    },
+    {
+      "multiplier": 0,
+      "xp": 179.5855
+    },
+    {
+      "multiplier": 0,
+      "xp": 188.5648
+    },
+    {
+      "multiplier": 0,
+      "xp": 197.993
+    },
+    {
+      "multiplier": 0,
+      "xp": 207.8927
+    },
+    {
+      "multiplier": 0,
+      "xp": 218.2873
+    },
+    {
+      "multiplier": 0,
+      "xp": 229.2016
+    },
+    {
+      "multiplier": 0,
+      "xp": 240.6617
+    },
+    {
+      "multiplier": 0,
+      "xp": 252.6948
+    },
+    {
+      "multiplier": 0,
+      "xp": 265.3295
+    },
+    {
+      "multiplier": 0,
+      "xp": 278.596
+    },
+    {
+      "multiplier": 0,
+      "xp": 292.5258
+    },
+    {
+      "multiplier": 0,
+      "xp": 307.152
+    },
+    {
+      "multiplier": 0,
+      "xp": 322.5096
+    },
+    {
+      "multiplier": 0,
+      "xp": 338.6351
+    },
+    {
+      "multiplier": 0,
+      "xp": 355.5668
+    },
+    {
+      "multiplier": 0,
+      "xp": 373.3451
+    },
+    {
+      "multiplier": 0,
+      "xp": 392.0124
+    },
+    {
+      "multiplier": 0,
+      "xp": 411.6129
+    },
+    {
+      "multiplier": 0,
+      "xp": 432.1936
+    }
+  ]
+}

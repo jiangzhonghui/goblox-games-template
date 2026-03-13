@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Mystic Heal Ability Data.asset",
+  "type": 74,
+  "prerequisites": [],
+  "rarity": 2,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "神秘治疗",
+  "description": "恢复较多生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Mystic Heal Ability.prefab",
+  "levels": [
+    {
+      "healingProportion": {
+        "value": 0.75,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Shock Orbs Ability Data.asset",
+  "type": 53,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "闪电宝珠",
+  "description": "获得环绕的闪电宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_shock_orbs.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Shock Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.6,
+      "effectDuration": 3,
+      "shockSpreadProjectulePrefab": "Assets/The Archer/Prefabs/Projectiles/Enemies/Shock Spread Projectile.prefab",
+      "shockSpreadRadius": 4,
+      "shockSpreadDamageMultiplier": 0.5,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.2,
+      "effectDamageInterval": 0.9
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Stages/Stage Database.asset",
+  "stages": [
+    "Assets/The Archer/Scriptables/Stages/Stage Data 001.asset",
+    "Assets/The Archer/Scriptables/Stages/Stage Data 002.asset"
+  ],
+  "experienceData": "Assets/The Archer/Scriptables/Experience Data.asset",
+  "randomGroupColor": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "waveIcons": [
+    "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_icons_fight.png",
+    "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_icons_chest_heal.png",
+    "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_icons_crown.png",
+    "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_icons_chest_evil.png",
+    "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_icons_chest_good.png"
+  ],
+  "lastSelectedStageId": 0,
+  "lastSelectedRoomId": -1,
+  "lastSelectedWaveId": -1
+}

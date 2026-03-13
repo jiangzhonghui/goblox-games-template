@@ -1,0 +1,19 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Close Combat Ability Data.asset",
+  "type": 4,
+  "prerequisites": [],
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "近身战斗",
+  "description": "降低攻击范围，但获得更高的伤害和速度",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_close_combat.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Close Combat Ability.prefab",
+  "levels": [
+    {
+      "arrowRangeMultiplier": 0.125,
+      "attackSpeedMultiplier": 1.2,
+      "attackDamageMultiplier": 1.2
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Safety Bubble Ability Data.asset",
+  "type": 65,
+  "rarity": 3,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "安全气泡",
+  "description": "释放一个可吸收一次伤害的气泡",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_safety_bubble.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Safety Bubble Ability.prefab",
+  "levels": [
+    {
+      "hitsToDisableProtection": 1
+    }
+  ]
+}

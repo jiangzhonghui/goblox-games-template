@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Legendary Coins Ability Data.asset",
+  "type": 79,
+  "prerequisites": [],
+  "rarity": 3,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "传奇金币",
+  "description": "获得大量金币",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_coins.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Legendary Coins Ability.prefab",
+  "levels": [
+    {
+      "amountOfCoins": 80
+    }
+  ]
+}

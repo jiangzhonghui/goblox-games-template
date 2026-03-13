@@ -1,0 +1,33 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Move Speed Upgrade.asset",
+  "upgradeType": 8,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_move_spd.png",
+  "title": "敏捷提升",
+  "description": "增加你的\r\n移动速度",
+  "statsText": "{0}><color=#75F05F>{1}</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/Move Speed Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 100,
+      "value": 1.05
+    },
+    {
+      "cost": 250,
+      "value": 1.1
+    },
+    {
+      "cost": 600,
+      "value": 1.15
+    },
+    {
+      "cost": 1200,
+      "value": 1.2
+    },
+    {
+      "cost": 2400,
+      "value": 1.25
+    }
+  ]
+}

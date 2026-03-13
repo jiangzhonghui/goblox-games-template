@@ -1,0 +1,24 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Spirit Abilities/Shock Spirit Ability Data.asset",
+  "type": 44,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "闪电之灵",
+  "description": "召唤一个友好的闪电之灵",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_shock_spirit.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Spirit Abilities/Shock Spirit Ability.prefab",
+  "levels": [
+    {
+      "spiritAttackDelay": 2,
+      "spiritDamageMultiplier": 0.5,
+      "effectDuration": 3,
+      "shockSpreadProjectulePrefab": "Assets/The Archer/Prefabs/Projectiles/Enemies/Shock Spread Projectile.prefab",
+      "shockSpreadRadius": 4,
+      "shockSpreadDamageMultiplier": 0.2,
+      "effectDealsDamageOverTime": 1,
+      "effectDamageMultiplier": 0.1,
+      "effectDamageInterval": 0.8
+    }
+  ]
+}

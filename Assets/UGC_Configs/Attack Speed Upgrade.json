@@ -1,0 +1,33 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Upgrades/Attack Speed Upgrade.asset",
+  "upgradeType": 6,
+  "icon": "Assets/The Archer/Sprites/UI/Upgrades/ui_upg_atck_spd.png",
+  "title": "迅猛打击",
+  "description": "增加攻击速度，\r\n让你出击更快",
+  "statsText": "{0}><color=#75F05F>{1}</color>",
+  "initialValue": 0,
+  "prefab": "Assets/The Archer/Prefabs/Upgrades/Attack Speed Upgrade.prefab",
+  "devStartLevel": -1,
+  "levels": [
+    {
+      "cost": 100,
+      "value": 1.05
+    },
+    {
+      "cost": 250,
+      "value": 1.1
+    },
+    {
+      "cost": 600,
+      "value": 1.15
+    },
+    {
+      "cost": 1200,
+      "value": 1.2
+    },
+    {
+      "cost": 2400,
+      "value": 1.25
+    }
+  ]
+}

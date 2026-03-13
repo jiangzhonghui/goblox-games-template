@@ -1,0 +1,2644 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/World Space Indicators Database.asset",
+  "indicators": [
+    {
+      "textType": 0,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 15,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Crit Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 5.748183,
+            "outSlope": 5.748183,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.1560104,
+            "value": 1.496777,
+            "inSlope": 4.043197E-06,
+            "outSlope": 4.043197E-06,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.5967593
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.4514424,
+            "value": 1.218522,
+            "inSlope": 1.161227,
+            "outSlope": 1.161227,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.5773606,
+            "outWeight": 0.4767616
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.22132,
+            "outSlope": -2.22132,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": -0.001960754,
+            "value": 0,
+            "inSlope": -0.03861076,
+            "outSlope": -0.03861076,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.4287449
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.1792472,
+            "value": 1.002463,
+            "inSlope": 17.53304,
+            "outSlope": 17.53304,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.07565469,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 1,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 2,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Burning Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 3,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Freezing Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 4,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Poison Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 5,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Enemy Damage/Shock Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 6,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Player Damage/Player Physical Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 7,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Player Damage/Player Burning Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 8,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Player Damage/Player Freezing Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 9,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Player Damage/Player Poison Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 10,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Player Damage/Player Shock Damage Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0.6,
+            "inSlope": 1.333333,
+            "outSlope": 1.333333,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3,
+            "value": 1,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 1,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -2.5,
+            "outSlope": -2.5,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 11,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Heal Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 0.9,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": 20,
+        "min": 18,
+        "max": 22,
+        "propertyType": 1
+      },
+      "maxX": {
+        "value": 0,
+        "min": -5,
+        "max": 5,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": -10,
+        "max": 10,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 0.5,
+        "min": 0,
+        "max": 5,
+        "propertyType": 1
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": -0.02857208,
+            "value": 0.1757599,
+            "inSlope": 5.590353,
+            "outSlope": 5.590353,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.09626941,
+            "value": 0.873668,
+            "inSlope": 1.517266,
+            "outSlope": 1.517266,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.6440818,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.5187184,
+            "value": 0.821887,
+            "inSlope": -1.461536,
+            "outSlope": -1.461536,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.2125825,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 0,
+            "inSlope": -1.707705,
+            "outSlope": -1.707705,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 0,
+            "outSlope": 0,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 2,
+            "outSlope": 2,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 13,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Ability Select Indicator.prefab",
+      "duration": {
+        "value": 2,
+        "min": 2,
+        "max": 2,
+        "propertyType": 0
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 1.4,
+        "max": 1.4,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": -100,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "maxX": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 150,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0.1024737,
+            "value": 0.006570993,
+            "inSlope": 14.16909,
+            "outSlope": 14.16909,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.1758545,
+            "value": 1.04631,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.2208854,
+            "value": 0.9999576,
+            "inSlope": 0,
+            "outSlope": 0,
+            "tangentMode": 136,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.8078095,
+            "value": 1.000046,
+            "inSlope": 0.0005219518,
+            "outSlope": 0.0005219518,
+            "tangentMode": 136,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.896467,
+            "value": 1.045097,
+            "inSlope": -0.9887795,
+            "outSlope": -0.9887795,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.1004104
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.9995117,
+            "value": 0,
+            "inSlope": -5.920763,
+            "outSlope": -5.920763,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.03084517,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0.75,
+            "value": 0.004760742,
+            "inSlope": 1.1756,
+            "outSlope": 1.1756,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.03158879
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 7.876459,
+            "outSlope": 7.876459,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.01084399,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 12,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Item Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 2,
+        "max": 2,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 1.4,
+        "max": 1.4,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": -100,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "maxX": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 150,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0.0004730225,
+            "value": 0.6960694,
+            "inSlope": 3.981754,
+            "outSlope": 3.981754,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.07703859,
+            "value": 1.000935,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.7505127,
+            "value": 0.9968262,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.8162524,
+            "value": 1.03709,
+            "inSlope": -0.9887795,
+            "outSlope": -0.9887795,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.1004104
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.9995117,
+            "value": 0,
+            "inSlope": -5.920763,
+            "outSlope": -5.920763,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.03084517,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0.75,
+            "value": 0.004760742,
+            "inSlope": 1.1756,
+            "outSlope": 1.1756,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.03158879
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 7.876459,
+            "outSlope": 7.876459,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.01084399,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 14,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Combo Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.6,
+        "max": 0.6,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 1.1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": -100,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "maxX": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 180,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": -0.02947235,
+            "value": 0.09678042,
+            "inSlope": 6.95982,
+            "outSlope": 6.95982,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.1168884,
+            "value": 1.115425,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3740479,
+            "value": 0.993248,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.8116028,
+            "value": 0.949432,
+            "inSlope": -0.9887795,
+            "outSlope": -0.9887795,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.1004104
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.9995117,
+            "value": 0,
+            "inSlope": -5.920763,
+            "outSlope": -5.920763,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.03084517,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 0.004760742,
+            "inSlope": 1.1756,
+            "outSlope": 1.1756,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.03158879
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 7.876459,
+            "outSlope": 7.876459,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.01084399,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    },
+    {
+      "textType": 16,
+      "textPrefab": "Assets/The Archer/Prefabs/UI/Game/World Space Text/Dodge Indicator.prefab",
+      "duration": {
+        "value": 1,
+        "min": 0.6,
+        "max": 0.6,
+        "propertyType": 1
+      },
+      "maxScale": {
+        "value": 1,
+        "min": 1.1,
+        "max": 1.1,
+        "propertyType": 1
+      },
+      "maxY": {
+        "value": -100,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "maxX": {
+        "value": 0,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPostionOffsetX": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 1
+      },
+      "spawnPositionOffsetY": {
+        "value": 180,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      },
+      "scaleCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": -0.02947235,
+            "value": 0.09678042,
+            "inSlope": 6.95982,
+            "outSlope": 6.95982,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.1168884,
+            "value": 1.115425,
+            "inSlope": -0.001152493,
+            "outSlope": -0.001152493,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 1
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.3740479,
+            "value": 0.993248,
+            "inSlope": 0.0001864774,
+            "outSlope": 0.0001864774,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.3333333
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.8116028,
+            "value": 0.949432,
+            "inSlope": -0.9887795,
+            "outSlope": -0.9887795,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.3333333,
+            "outWeight": 0.1004104
+          },
+          {
+            "serializedVersion": 3,
+            "time": 0.9995117,
+            "value": 0,
+            "inSlope": -5.920763,
+            "outSlope": -5.920763,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.03084517,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "xPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 1,
+            "outSlope": 1,
+            "tangentMode": 34,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      },
+      "yPositionCurve": {
+        "serializedVersion": 2,
+        "Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0.6,
+            "value": 0.004760742,
+            "inSlope": 1.1756,
+            "outSlope": 1.1756,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0.03158879
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 7.876459,
+            "outSlope": 7.876459,
+            "tangentMode": 0,
+            "weightedMode": 0,
+            "inWeight": 0.01084399,
+            "outWeight": 0
+          }
+        ],
+        "PreInfinity": 2,
+        "PostInfinity": 2,
+        "RotationOrder": 4
+      }
+    }
+  ]
+}

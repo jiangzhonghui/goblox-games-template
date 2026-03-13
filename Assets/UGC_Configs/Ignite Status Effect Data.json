@@ -1,0 +1,6 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Effects/Ignite Status Effect Data.asset",
+  "effectAppliedSound": "Assets/The Archer/Scriptables/Audio/Abilities/Status Effects/Ignite.asset",
+  "effectTickSound": null,
+  "effectEndedSound": null
+}

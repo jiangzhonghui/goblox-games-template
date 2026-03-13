@@ -1,0 +1,76 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Bow Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Bow Data.asset",
+  "itemType": 0,
+  "itemName": "专属弓",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_bow_1.png",
+  "isDefaultItem": 1,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 0,
+      "itemRarity": 0,
+      "- statType": 0,
+      "value": 10,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 100,
+      "itemRarity": 0,
+      "- statType": 0,
+      "value": 15,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 200,
+      "itemRarity": 1,
+      "- statType": 0,
+      "value": 20,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 300,
+      "itemRarity": 1,
+      "- statType": 0,
+      "value": 25,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 500,
+      "itemRarity": 1,
+      "- statType": 0,
+      "value": 30,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 800,
+      "itemRarity": 2,
+      "- statType": 2,
+      "value": 1.02,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1200,
+      "itemRarity": 2,
+      "- statType": 2,
+      "value": 1.04,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 1800,
+      "itemRarity": 3,
+      "- statType": 2,
+      "value": 1.06,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 2400,
+      "itemRarity": 3,
+      "- statType": 2,
+      "value": 1.08,
+      "isVisibleOnUI": 1
+    }
+  ],
+  "weaponPrefab": "Assets/The Archer/Prefabs/Weapons/Bow.prefab",
+  "isRightHandWeapon": 0
+}

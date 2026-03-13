@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Vampiric Orbs Ability Data.asset",
+  "type": 49,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "吸血宝珠",
+  "description": "获得环绕的窃取敌人生命值的宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_vampiric_orbs.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Vampiric Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.4,
+      "vampirismMultiplier": 0.5
+    }
+  ]
+}

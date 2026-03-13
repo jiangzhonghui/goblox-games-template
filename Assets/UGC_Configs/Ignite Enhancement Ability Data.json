@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Ignite Enhancement Ability Data.asset",
+  "type": 20,
+  "prerequisites": null,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "点燃增强",
+  "description": "点燃造成更多伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ignite_enhancement.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Ignite Enhancement Ability.prefab",
+  "levels": [
+    {
+      "igniteDamageMultiplier": 1.5,
+      "arrowSpeedMultiplier": 1.5
+    }
+  ]
+}

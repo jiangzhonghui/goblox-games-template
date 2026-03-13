@@ -1,0 +1,67 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Armor Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Armor Data.asset",
+  "itemType": 1,
+  "itemName": "坚固护甲",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_armor_1.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 100,
+      "itemRarity": 1,
+      "- statType": 6,
+      "value": 0.95,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 200,
+      "itemRarity": 1,
+      "- statType": 6,
+      "value": 0.92,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 300,
+      "itemRarity": 1,
+      "- statType": 6,
+      "value": 0.9,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 400,
+      "itemRarity": 1,
+      "- statType": 6,
+      "value": 0.88,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 500,
+      "itemRarity": 1,
+      "- statType": 6,
+      "value": 0.85,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 700,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.8,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 900,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.75,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 900,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.7,
+      "isVisibleOnUI": 1
+    }
+  ]
+}

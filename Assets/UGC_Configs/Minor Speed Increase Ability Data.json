@@ -1,0 +1,19 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Minor Speed Increase Ability Data.asset",
+  "type": 28,
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "微量速度提升",
+  "description": "轻微增加移动速度",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_minor_speed_boost.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Minor Speed Increase Ability.prefab",
+  "levels": [
+    {
+      "movementSpeedMultiplier": 1.15
+    },
+    {
+      "movementSpeedMultiplier": 1.3
+    }
+  ]
+}

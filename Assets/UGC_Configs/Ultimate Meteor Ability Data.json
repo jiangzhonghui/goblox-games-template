@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Elemental Abilities/Ultimate Meteor Ability Data.asset",
+  "type": 24,
+  "rarity": 3,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "终极流星",
+  "description": "召唤毁灭性的从天而降的流星",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_ultimate_meteor.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Elemental Abilities/Ultimate Meteor Ability.prefab",
+  "levels": [
+    {
+      "meteorSpawnDelay": 2,
+      "meteorDamageMultiplier": 0.7
+    }
+  ]
+}

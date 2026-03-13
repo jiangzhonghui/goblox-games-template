@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Front Projectile Ability Data.asset",
+  "type": 6,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "前方抛射物",
+  "description": "获得额外的前方抛射物",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_front_projectile.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Front Projectile Ability.prefab",
+  "levels": [
+    {
+      "additionalFrontArrowsCount": 1,
+      "frontArrowsDamageMultiplier": 0.8
+    },
+    {
+      "additionalFrontArrowsCount": 2,
+      "frontArrowsDamageMultiplier": 0.7
+    }
+  ]
+}

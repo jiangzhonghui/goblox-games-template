@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Endgame Abilities/Legendary Heal Ability Data.asset",
+  "type": 75,
+  "prerequisites": [],
+  "rarity": 3,
+  "isRepeatedAbiltiy": 1,
+  "isEndgameAbility": 1,
+  "title": "传奇治疗",
+  "description": "恢复大量生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Endgame Abilities/Legendary Heal Ability.prefab",
+  "levels": [
+    {
+      "healingProportion": {
+        "value": 1,
+        "min": 0,
+        "max": 0,
+        "propertyType": 0
+      }
+    }
+  ]
+}

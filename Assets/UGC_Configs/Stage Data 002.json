@@ -1,0 +1,105 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Stages/Stage Data 002.asset",
+  "stageImage": "Assets/The Archer/Sprites/UI/Main Menu/ui_stage_1_preview.png",
+  "stageName": "古老神庙",
+  "showStageObjective": 1,
+  "stageObjective": "在33波敌人中生存下来",
+  "stageMusic": "Assets/The Archer/Scriptables/Audio/Music/Stage Music.asset",
+  "showAbilitySelector": 1,
+  "enemyDamageMulitplier": 1,
+  "enemyDamageMultiplierRoomStep": 0.1,
+  "enemyDamageMultiplierWaveStep": 0.05,
+  "enemyHPMulitplier": 1,
+  "enemyHPMultiplierRoomStep": 0.1,
+  "enemyHPMultiplierWaveStep": 0.05,
+  "rooms": [
+    {
+      "prefabs": [
+        {
+          "prefab": "Assets/The Archer/Prefabs/Prop/Temple/Temple Env.prefab",
+          "transformData": {
+            "position": null,
+            "rotation": null,
+            "localScale": null
+          }
+        }
+      ],
+      "- enemySpawns": [
+        {
+          "enemyType": 105,
+          "transformData": {
+            "position": null,
+            "rotation": null,
+            "localScale": null
+          },
+          "overrideData": {
+            "additionalDrop": [
+              {
+                "dropType": 4,
+                "itemData": "Assets/The Archer/Scriptables/Armory/Items/Ring 2 Data.asset",
+                "- hp": 1,
+                "dropAmount": {
+                  "value": 1,
+                  "min": 0,
+                  "max": 1,
+                  "propertyType": 0
+                },
+                "chance": 100,
+                "selectedZoneId": 0
+              },
+              {
+                "dropType": 4,
+                "itemData": "Assets/The Archer/Scriptables/Armory/Items/Hat Data.asset",
+                "- hp": 1,
+                "dropAmount": {
+                  "value": 1,
+                  "min": 0,
+                  "max": 1,
+                  "propertyType": 0
+                },
+                "chance": 100,
+                "selectedZoneId": 0
+              }
+            ],
+            "dropOverrides": "[]",
+            "removeDrop": [],
+            "overrideHP": 0,
+            "hp": {
+              "value": 100,
+              "min": 0,
+              "max": 1,
+              "propertyType": 0
+            },
+            "overrideDamage": 0,
+            "damage": {
+              "value": 1,
+              "min": 0,
+              "max": 1,
+              "propertyType": 0
+            }
+          }
+        }
+      ],
+      "chestSpawns": "[]",
+      "groupId": 0,
+      "waveDropExpericence": 0,
+      "waveDropGold": 250,
+      "customWaveEndDelay": -1,
+      "icon": "Assets/The Archer/Sprites/UI/Game/Gameplay/ui_icons_crown.png",
+      "waveMusic": "Assets/The Archer/Scriptables/Audio/Music/Boss Music.asset",
+      "- chestType": 0,
+      "transformData": {
+        "position": null,
+        "rotation": null,
+        "localScale": null
+      },
+      "playerSpawnPoint": null,
+      "roomMusic": null,
+      "firstWaveStartDelay": 0,
+      "delayBetweenWaves": 0,
+      "delayBeforeExitSpawn": 0,
+      "cameraMovementType": 2,
+      "- {x": "-0.0012296215, y: 6.2380495}"
+    }
+  ]
+}

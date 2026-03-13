@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Spirit Abilities/Spirit Rage Ability Data.asset",
+  "type": 47,
+  "prerequisites": null,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "灵体狂怒",
+  "description": "所有召唤的灵体获得攻击速度",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_spirit_rage.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Spirit Abilities/Spirit Rage Ability.prefab",
+  "levels": [
+    {
+      "spiritsDamageMultiplier": 0.5,
+      "spiritsAttackDelayMultiplier": 0.5
+    }
+  ]
+}

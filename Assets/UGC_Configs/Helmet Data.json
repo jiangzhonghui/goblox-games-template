@@ -1,0 +1,69 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Armory/Items/Helmet Data.asset",
+  "guid": "Assets/The Archer/Scriptables/Armory/Items/Helmet Data.asset",
+  "itemType": 2,
+  "itemName": "迅捷头盔",
+  "icon": "Assets/The Archer/Sprites/UI/Items/ui_helmet_1.png",
+  "isDefaultItem": 0,
+  "isUnlockedByDefault": 1,
+  "itemLevels": [
+    {
+      "cost": 100,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.95,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 200,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.9,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 300,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.85,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 400,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.8,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 500,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.75,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 650,
+      "itemRarity": 2,
+      "- statType": 6,
+      "value": 0.7,
+      "isVisibleOnUI": 1
+    },
+    {
+      "cost": 800,
+      "itemRarity": 3,
+      "- statType": 6,
+      "value": 0.7,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": "3c000000"
+    },
+    {
+      "cost": 1000,
+      "itemRarity": 3,
+      "- statType": 6,
+      "value": 0.6,
+      "isVisibleOnUI": 1,
+      "attachedAbilities": "3c000000"
+    }
+  ]
+}

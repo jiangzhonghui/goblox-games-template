@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Lucky Charm Ability Data.asset",
+  "type": 33,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "幸运护符",
+  "description": "生命补给可增加最大生命值",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_lucky_charm.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Lucky Charm Ability.prefab",
+  "levels": [
+    {
+      "maxHPMultiplier": 1.1,
+      "chance": 0.2
+    }
+  ]
+}

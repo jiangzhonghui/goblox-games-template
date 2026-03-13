@@ -1,0 +1,15 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Currencies Database.asset",
+  "currencies": [
+    {
+      "id": "gold",
+      "name": "金币",
+      "icon": "Assets/The Archer/Sprites/UI/Generic/ui_coin.png"
+    },
+    {
+      "id": "temp_gold",
+      "name": "金币",
+      "icon": "Assets/The Archer/Sprites/UI/Generic/ui_coin.png"
+    }
+  ]
+}

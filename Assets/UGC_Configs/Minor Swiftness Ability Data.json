@@ -1,0 +1,21 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Minor Swiftness Ability Data.asset",
+  "type": 31,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "微量迅捷",
+  "description": "轻微增加攻击和移动速度",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_minor_swiftness.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Minor Swiftness Ability.prefab",
+  "levels": [
+    {
+      "attackSpeedMultiplier": 1.1,
+      "movementSpeedMultiplier": 1.1
+    },
+    {
+      "attackSpeedMultiplier": 1.2,
+      "movementSpeedMultiplier": 1.2
+    }
+  ]
+}

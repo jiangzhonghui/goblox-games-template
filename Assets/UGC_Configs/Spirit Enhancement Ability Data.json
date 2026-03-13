@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Spirit Abilities/Spirit Enhancement Ability Data.asset",
+  "type": 46,
+  "prerequisites": null,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "灵体增强",
+  "description": "所有召唤的灵体造成的伤害增加",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_spirit_enhancement.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Spirit Abilities/Spirit Enhansment Ability.prefab",
+  "levels": [
+    {
+      "spiritsDamageMultiplier": 10
+    }
+  ]
+}

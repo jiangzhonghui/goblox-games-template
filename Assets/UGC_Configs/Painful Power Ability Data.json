@@ -1,0 +1,18 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Buff Abilities/Painful Power Ability Data.asset",
+  "type": 67,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "痛苦之力",
+  "description": "受到攻击后获得力量",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_painful_power.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Buff Abilities/Painful Power Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 1.5,
+      "abilityDuration": 5
+    }
+  ]
+}

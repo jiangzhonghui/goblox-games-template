@@ -1,0 +1,16 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Weapon Abilities/Traversing Shot Ability Data.asset",
+  "type": 11,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "穿越射击",
+  "description": "抛射物可穿透障碍物",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_traversing_shot.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Weapon Abilities/Traversing Shot Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 0.9
+    }
+  ]
+}

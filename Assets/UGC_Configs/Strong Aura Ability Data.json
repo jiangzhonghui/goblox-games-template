@@ -1,0 +1,20 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Strong Aura Ability Data.asset",
+  "type": 64,
+  "prerequisites": [],
+  "rarity": 3,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "强效光环",
+  "description": "获得一个能伤害并削弱敌人的力场",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_strong_aura.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Strong Aura Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 0.9,
+      "abilityRadius": 5,
+      "enemyDamageReceivedMultiplierInsideRadius": 1.5,
+      "enemyDamageMultiplierWhenEntering": 0.5
+    }
+  ]
+}

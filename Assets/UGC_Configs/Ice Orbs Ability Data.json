@@ -1,0 +1,22 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Orb Abilities/Ice Orbs Ability Data.asset",
+  "type": 50,
+  "prerequisites": [],
+  "rarity": 0,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "寒冰宝珠",
+  "description": "获得环绕的寒冰宝珠",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_freeze_orbs.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Orb Abilities/Ice Orbs Ability.prefab",
+  "levels": [
+    {
+      "orbDamageMultiplier": 0.8,
+      "effectDuration": 0.4,
+      "targetSpeedMultiplier": 0,
+      "effectDealsDamageOverTime": 0,
+      "effectDamageMultiplier": 0,
+      "effectDamageInterval": 0.1
+    }
+  ]
+}

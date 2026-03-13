@@ -1,0 +1,17 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Defensive Abilities/Power Heal Ability Data.asset",
+  "type": 60,
+  "rarity": 1,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "力量治疗",
+  "description": "生命补给有几率增加力量",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_power_heal.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Defensive Abilities/Power Heal Ability.prefab",
+  "levels": [
+    {
+      "attackDamageMultiplier": 1.1,
+      "chance": 0.5
+    }
+  ]
+}

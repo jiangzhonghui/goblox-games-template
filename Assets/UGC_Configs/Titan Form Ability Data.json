@@ -1,0 +1,19 @@
+﻿{
+  "assetPath": "Assets/The Archer/Scriptables/Abilities/Stat Abilities/Titan Form Ability Data.asset",
+  "type": 36,
+  "rarity": 2,
+  "isRepeatedAbiltiy": 0,
+  "isEndgameAbility": 0,
+  "title": "泰坦形态",
+  "description": "体型变大且变慢，但拥有更多生命值和攻击伤害",
+  "icon": "Assets/The Archer/Sprites/UI/Abilities/ui_ab_titan_form.png",
+  "prefab": "Assets/The Archer/Prefabs/Abilities/Stat Abilities/Titan Form Ability.prefab",
+  "levels": [
+    {
+      "playerSizeMultiplier": 1.2,
+      "attackDamageMultiplier": 1.4,
+      "movementSpeedMultiplier": 0.8,
+      "maxHPMultiplier": 1.2
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+README.txt
+Enemies_Database_UGC.json
+Freeze_Ability_UGC.json
+Ignite_Ability_UGC.json
+Fire_Spirit_Ability_UGC.json
+Fire_Orbs_Ability_UGC.json
+Second_Chance_Ability_UGC.json
+Minor_Health_Boost_Ability_UGC.json
+Minor_Power_Boost_Ability_UGC.json
+Critical_Strike_Ability_UGC.json
+Bouncy_Shot_Ability_UGC.json
+Rear_Shot_Ability_UGC.json

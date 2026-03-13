@@ -1,0 +1,115 @@
+{
+  "assetPath": "Assets/The Archer/Scriptables/Enemies Database.asset",
+  "enemies": [
+    {
+      "name": "自动炮塔",
+      "enemyType": 0,
+      "isBoss": false
+    },
+    {
+      "name": "纳米凝胶",
+      "enemyType": 1,
+      "isBoss": false
+    },
+    {
+      "name": "机械植物",
+      "enemyType": 2,
+      "isBoss": false
+    },
+    {
+      "name": "攻击无人机",
+      "enemyType": 3,
+      "isBoss": false
+    },
+    {
+      "name": "监控眼球",
+      "enemyType": 4,
+      "isBoss": false
+    },
+    {
+      "name": "赛博史莱姆",
+      "enemyType": 5,
+      "isBoss": false
+    },
+    {
+      "name": "小型史莱姆",
+      "enemyType": 6,
+      "isBoss": false
+    },
+    {
+      "name": "微型史莱姆",
+      "enemyType": 7,
+      "isBoss": false
+    },
+    {
+      "name": "电磁地雷",
+      "enemyType": 8,
+      "isBoss": false
+    },
+    {
+      "name": "南瓜机器人",
+      "enemyType": 9,
+      "isBoss": false
+    },
+    {
+      "name": "机械蝙蝠",
+      "enemyType": 10,
+      "isBoss": false
+    },
+    {
+      "name": "机械手臂",
+      "enemyType": 11,
+      "isBoss": false
+    },
+    {
+      "name": "钻地机器人",
+      "enemyType": 12,
+      "isBoss": false
+    },
+    {
+      "name": "激光陷阱",
+      "enemyType": 13,
+      "isBoss": false
+    },
+    {
+      "name": "能量蜡烛",
+      "enemyType": 14,
+      "isBoss": false
+    },
+    {
+      "name": "尖刺陷阱",
+      "enemyType": 15,
+      "isBoss": false
+    },
+    {
+      "name": "蜂群母体",
+      "enemyType": 100,
+      "isBoss": true
+    },
+    {
+      "name": "机械仙人掌",
+      "enemyType": 101,
+      "isBoss": true
+    },
+    {
+      "name": "诅咒图腾",
+      "enemyType": 102,
+      "isBoss": true
+    },
+    {
+      "name": "冰霜核心",
+      "enemyType": 103,
+      "isBoss": true
+    },
+    {
+      "name": "失控AI",
+      "enemyType": 104,
+      "isBoss": true
+    },
+    {
+      "name": "远古机甲",
+      "enemyType": 105,
+      "isBoss": true
+    }
+  ]
+}
